@@ -10,9 +10,7 @@ internal interface IServices
 {
     event Action<string> OnMessageReceived;
 
-    Task StartService(ClientConfig config);
+    Task StartService(ClientConfig config, CancellationToken token);
 
     Task StopService();
-
-    Task SendJsonAsync(string json);
 }

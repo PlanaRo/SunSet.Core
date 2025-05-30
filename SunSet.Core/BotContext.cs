@@ -1,37 +1,44 @@
-﻿using System;
-using System.Text.Json;
-using System.Text.Json.Nodes;
-using SunSet.Core.Milky;
+﻿using SunSet.Core.Common;
 using SunSet.Core.Network;
-using SunSet.Core.Operation;
 
 namespace SunSet.Core;
 
 public class BotContext
 {
-    private readonly IServices _services;
+    internal readonly IServices Services;
 
-    private readonly ClientConfig _config;
+    internal readonly ClientConfig Config;
 
     private readonly OperationAdapter _adapter;
 
-    public readonly Operation.EventHandler Invoke = new();
+    public readonly Common.EventHandler Invoke = new();
+
+    public readonly ApiRequestHandler Api;
+
+    public uint BotUin { get; internal set; }
+
+    public string BotName { get; internal set; } = string.Empty;
 
     public BotContext(ClientConfig config)
     {
-        _services = new WebSocketServices();
-        _config = config;
+        Services = config.ServiceType switch
+        {
+            Enumerates.ServicesType.Websocket => new WebSocketServices(),
+            Enumerates.ServicesType.Webhook => new WebHookServices(),
+            _ => throw new NotSupportedException($"Service type {config.ServiceType} is not supported.")
+        };
+        Config = config;
+        Api = new ApiRequestHandler(this); 
         _adapter = new OperationAdapter(this);
     }
 
-    public async Task StarAsync()
+    public async Task StarAsync(CancellationToken token)
     {
-        _services.OnMessageReceived += async message =>
+        Services.OnMessageReceived += async message =>
         {
-            await _adapter.HandleOperationAsync(message);
+            await _adapter.HandleOperationAsync(message, token);
         };
-
-        await _services.StartService(_config);
+        await Services.StartService(Config, token);
     }
 
     public static BotContext CreateFactory(ClientConfig config) => new(config);

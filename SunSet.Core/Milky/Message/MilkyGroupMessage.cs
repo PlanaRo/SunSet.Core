@@ -7,6 +7,7 @@ using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 using SunSet.Core.Entity;
 using SunSet.Core.Milky.Info;
+using SunSet.Core.Segments;
 
 namespace SunSet.Core.Milky.Message;
 
@@ -25,7 +26,7 @@ public class MilkyGroupMessage : MilkyBaseData
     public uint Time { get; set; }
 
     [JsonPropertyName("segments")]
-    public List<MilkySegment> Segments { get; set; } = [];
+    public MessageChain Segments { get; set; } = [];
 
     [JsonPropertyName("group")]
     public Group Group { get; set; } = new();

@@ -5,15 +5,15 @@ using System.Text;
 using System.Text.Json.Nodes;
 using System.Threading.Tasks;
 
-namespace SunSet.Core.Operation;
+namespace SunSet.Core.Common;
 
-internal interface IOperationHandler
+internal interface IOperationProcessor
 {
     /// <summary>
     /// 处理操作
     /// </summary>
     /// <param name="operation">操作</param>
     /// <returns>是否处理成功</returns>
-    Task HandleOperationAsync(BotContext bot, JsonNode node);
+    Task HandleOperationAsync(BotContext bot, JsonNode node, CancellationToken token);
 
 }
