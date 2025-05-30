@@ -7,4 +7,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\SunSet.Core\SunSet.Core.csproj" />
+  </ItemGroup>
+
 </Project>

@@ -1,8 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using System.Net.WebSockets;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace SunSet.Core.Network;
 
@@ -10,18 +7,64 @@ namespace SunSet.Core.Network;
 //正向Websocket服务类
 internal class WebSocketServices : IServices
 {
-    public void SendJsonAsync(string json)
+    private readonly ClientWebSocket _client = new();
+
+    public event Action<string>? OnMessageReceived;
+
+    public async Task SendJsonAsync(string json)
     {
-        throw new NotImplementedException();
+        if(_client.State != WebSocketState.Open)
+        {
+            throw new InvalidOperationException("WebSocket is not connected.");
+        }
+        var buffer = Encoding.UTF8.GetBytes(json);
+        var segment = new ArraySegment<byte>(buffer);
+        await _client.SendAsync(segment, WebSocketMessageType.Text, true, default);
     }
 
-    public void StartService()
+    public async Task StartService(ClientConfig config)
     {
-        throw new NotImplementedException();
+        _client.Options.SetRequestHeader("Authorization", $"Bearer {config.AccessToken}");
+        var uri = new Uri($"ws://{config.Host}:{config.Port}/event");
+        await _client.ConnectAsync(uri, default);
+        if (_client.State != WebSocketState.Open)
+        {
+            throw new InvalidOperationException("WebSocket connection failed.");
+        }
+        await ReceiveLoopAsync();
     }
 
-    public void StopService()
+    private async Task ReceiveLoopAsync()
     {
-        throw new NotImplementedException();
+        var buffer = new byte[1024];
+        while (true)
+        {
+            int received = 0;
+            while (true)
+            {
+                var result = await _client.ReceiveAsync(buffer.AsMemory(received), default);
+                if (result.MessageType == WebSocketMessageType.Close)
+                {
+                    await _client.CloseAsync(WebSocketCloseStatus.NormalClosure, "Close", default);
+                    break;
+                }
+
+                received += result.Count;
+                if (result.EndOfMessage) break;
+
+                if (received == buffer.Length) Array.Resize(ref buffer, received << 1);
+            }
+            var text = Encoding.UTF8.GetString(buffer, 0, received);
+            OnMessageReceived?.Invoke(text); // Handle user handlers error?
+        }
+    }
+
+    public async Task StopService()
+    {
+        if (_client.State == WebSocketState.Open)
+        {
+            await _client.CloseAsync(WebSocketCloseStatus.NormalClosure, "Service stopped", default);
+        }
+        _client.Dispose();
     }
 }

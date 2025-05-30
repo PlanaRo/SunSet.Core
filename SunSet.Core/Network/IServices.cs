@@ -8,10 +8,11 @@ namespace SunSet.Core.Network;
 
 internal interface IServices
 {
-    
-    void StartService();
+    event Action<string> OnMessageReceived;
 
-    void StopService();
+    Task StartService(ClientConfig config);
 
-    void SendJsonAsync(string json);
+    Task StopService();
+
+    Task SendJsonAsync(string json);
 }
