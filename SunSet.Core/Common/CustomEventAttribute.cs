@@ -4,14 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SunSet.Core.Operation;
+namespace SunSet.Core.Common;
 
 /// <summary>
 /// 初始化一个新的 MikyEventTypeAttribute 实例
 /// </summary>
 /// <param name="eventType">事件类型</param>
 [AttributeUsage(AttributeTargets.Class)]
-internal class MikyEventTypeAttribute(string eventType) : Attribute
+internal class CustomEventAttribute(string eventType) : Attribute
 {
     /// <summary>
     /// 事件类型

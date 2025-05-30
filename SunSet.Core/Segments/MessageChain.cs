@@ -39,4 +39,20 @@ public class MessageChain : List<MilkySegment>
         });
         return this;
     }
+
+    public MessageChain Image(string resourceId, string tempUrl, string summary = "图片", string subType = "normal")
+    {
+        Add(new()
+        {
+            Type = "image",
+            Entity = new ImageEntity
+            {
+                ResourceId = resourceId,
+                TempUrl = tempUrl,
+                Summary = summary,
+                SubType = subType
+            }
+        });
+        return this;
+    }
 }

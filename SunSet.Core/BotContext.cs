@@ -1,5 +1,5 @@
-﻿using SunSet.Core.Network;
-using SunSet.Core.Operation;
+﻿using SunSet.Core.Common;
+using SunSet.Core.Network;
 
 namespace SunSet.Core;
 
@@ -11,9 +11,9 @@ public class BotContext
 
     private readonly OperationAdapter _adapter;
 
-    public readonly Operation.EventHandler Invoke = new();
+    public readonly Common.EventHandler Invoke = new();
 
-    public readonly ApiHandler Api;
+    public readonly ApiRequestHandler Api;
 
     public uint BotUin { get; internal set; }
 
@@ -28,7 +28,7 @@ public class BotContext
             _ => throw new NotSupportedException($"Service type {config.ServiceType} is not supported.")
         };
         Config = config;
-        Api = new ApiHandler(this); 
+        Api = new ApiRequestHandler(this); 
         _adapter = new OperationAdapter(this);
     }
 
@@ -38,7 +38,6 @@ public class BotContext
         {
             await _adapter.HandleOperationAsync(message, token);
         };
-
         await Services.StartService(Config, token);
     }
 

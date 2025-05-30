@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SunSet")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8bcddcf1c44fb0a9408924426cca2e49e034fe53")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f8d6c0dac8975f0d43a6c3e9c4f420846cd59d69")]
 [assembly: System.Reflection.AssemblyProductAttribute("SunSet")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SunSet")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

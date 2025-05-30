@@ -2,7 +2,7 @@
 
 namespace SunSet.Core.Enumerates;
 
-public enum ApiType
+public enum ApiOperationType
 {
     #region System API
     [Description("get_login_info")]

@@ -3,7 +3,7 @@ using System.Threading.Tasks;
 using SunSet.Core.Milky;
 using SunSet.Core.Milky.Message;
 
-namespace SunSet.Core.Operation;
+namespace SunSet.Core.Common;
 
 public class EventHandler
 {

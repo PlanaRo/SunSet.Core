@@ -6,11 +6,11 @@ using System.Text;
 using System.Text.Json;
 using SunSet.Core.Milky;
 
-namespace SunSet.Core.Operation;
+namespace SunSet.Core.Common;
 
 internal class OperationAdapter
 {
-    private readonly Dictionary<string, IOperationHandler> _operationHandlers = [];
+    private readonly Dictionary<string, IOperationProcessor> _operationHandlers = [];
 
     private readonly BotContext _context;
 
@@ -25,11 +25,11 @@ internal class OperationAdapter
         _context = context;
         foreach (var type in Assembly.GetExecutingAssembly()
             .GetTypes()
-            .Where(t => t.IsDefined(typeof(MikyEventTypeAttribute)) && t.GetInterfaces().Contains(typeof(IOperationHandler))))
+            .Where(t => t.IsDefined(typeof(CustomEventAttribute)) && t.GetInterfaces().Contains(typeof(IOperationProcessor))))
         {
-            var attribute = type.GetCustomAttribute<MikyEventTypeAttribute>()!;
+            var attribute = type.GetCustomAttribute<CustomEventAttribute>()!;
             
-            if (Activator.CreateInstance(type) is IOperationHandler handler)
+            if (Activator.CreateInstance(type) is IOperationProcessor handler)
             {
                 _operationHandlers[attribute.EventType] = handler;
             }
@@ -41,9 +41,9 @@ internal class OperationAdapter
         var args = JsonSerializer.Deserialize<MilkyEventArgs>(json, jsonSerializerOptions)!;
         if (_context.BotUin < 10086)
         {
-            var (name, uin) = await _context.Api.GetLoginInfo();
-            _context.BotName = name;
-            _context.BotUin = uin;
+            var result = await _context.Api.GetLoginInfo();
+            _context.BotName = result.Data.Nickname;
+            _context.BotUin = result.Data.Uin;
         }
         if (_operationHandlers.TryGetValue(args.EventType, out var handler))
         {

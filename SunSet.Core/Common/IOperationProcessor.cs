@@ -5,9 +5,9 @@ using System.Text;
 using System.Text.Json.Nodes;
 using System.Threading.Tasks;
 
-namespace SunSet.Core.Operation;
+namespace SunSet.Core.Common;
 
-internal interface IOperationHandler
+internal interface IOperationProcessor
 {
     /// <summary>
     /// 处理操作
