@@ -14,6 +14,6 @@ internal interface IOperationHandler
     /// </summary>
     /// <param name="operation">操作</param>
     /// <returns>是否处理成功</returns>
-    Task HandleOperationAsync(BotContext bot, JsonNode node);
+    Task HandleOperationAsync(BotContext bot, JsonNode node, CancellationToken token);
 
 }

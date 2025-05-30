@@ -9,7 +9,7 @@ public class MilkyEventArgs
     public long Time { get; set; }
 
     [JsonPropertyName("self_id")]
-    public long SelfUin { get; set; }
+    public uint SelfUin { get; set; }
 
     [JsonPropertyName("event_type")]
     public string EventType { get; set; } = string.Empty;

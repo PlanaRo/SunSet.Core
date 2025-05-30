@@ -4,9 +4,6 @@ using System.Linq;
 using System.Reflection;
 using System.Text;
 using System.Text.Json;
-using System.Text.Json.Nodes;
-using System.Threading.Tasks;
-using System.Xml.Linq;
 using SunSet.Core.Milky;
 
 namespace SunSet.Core.Operation;
@@ -39,12 +36,18 @@ internal class OperationAdapter
         }
     }
 
-    public async Task HandleOperationAsync(string json)
+    public async Task HandleOperationAsync(string json, CancellationToken token)
     {
         var args = JsonSerializer.Deserialize<MilkyEventArgs>(json, jsonSerializerOptions)!;
+        if (_context.BotUin < 10086)
+        {
+            var (name, uin) = await _context.Api.GetLoginInfo();
+            _context.BotName = name;
+            _context.BotUin = uin;
+        }
         if (_operationHandlers.TryGetValue(args.EventType, out var handler))
         {
-            await handler.HandleOperationAsync(_context, args.Payload);
+            await handler.HandleOperationAsync(_context, args.Payload, token);
         }
     }
 }

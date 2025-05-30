@@ -10,9 +10,5 @@ public enum ServicesType
 {
     Websocket,
 
-    ForwardWebsocket,
-
-    Http,
-
     Webhook
 }

@@ -11,30 +11,20 @@ internal class WebSocketServices : IServices
 
     public event Action<string>? OnMessageReceived;
 
-    public async Task SendJsonAsync(string json)
-    {
-        if(_client.State != WebSocketState.Open)
-        {
-            throw new InvalidOperationException("WebSocket is not connected.");
-        }
-        var buffer = Encoding.UTF8.GetBytes(json);
-        var segment = new ArraySegment<byte>(buffer);
-        await _client.SendAsync(segment, WebSocketMessageType.Text, true, default);
-    }
 
-    public async Task StartService(ClientConfig config)
+    public async Task StartService(ClientConfig config, CancellationToken token)
     {
         _client.Options.SetRequestHeader("Authorization", $"Bearer {config.AccessToken}");
         var uri = new Uri($"ws://{config.Host}:{config.Port}/event");
-        await _client.ConnectAsync(uri, default);
+        await _client.ConnectAsync(uri, token);
         if (_client.State != WebSocketState.Open)
         {
             throw new InvalidOperationException("WebSocket connection failed.");
         }
-        await ReceiveLoopAsync();
+        await ReceiveLoopAsync(token);
     }
 
-    private async Task ReceiveLoopAsync()
+    private async Task ReceiveLoopAsync(CancellationToken token)
     {
         var buffer = new byte[1024];
         while (true)
@@ -42,10 +32,10 @@ internal class WebSocketServices : IServices
             int received = 0;
             while (true)
             {
-                var result = await _client.ReceiveAsync(buffer.AsMemory(received), default);
+                var result = await _client.ReceiveAsync(buffer.AsMemory(received), token);
                 if (result.MessageType == WebSocketMessageType.Close)
                 {
-                    await _client.CloseAsync(WebSocketCloseStatus.NormalClosure, "Close", default);
+                    await _client.CloseAsync(WebSocketCloseStatus.NormalClosure, "Close", token);
                     break;
                 }
 

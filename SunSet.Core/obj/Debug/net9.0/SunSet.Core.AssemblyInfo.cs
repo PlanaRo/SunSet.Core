@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SunSet.Core")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+218dd7d9a2d565c573edd470763483338da9225b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8bcddcf1c44fb0a9408924426cca2e49e034fe53")]
 [assembly: System.Reflection.AssemblyProductAttribute("SunSet.Core")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SunSet.Core")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
