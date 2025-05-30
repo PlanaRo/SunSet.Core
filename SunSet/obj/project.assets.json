@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net9.0": {}
+    "net9.0": {
+      "SunSet.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/SunSet.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SunSet.Core.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "SunSet.Core/1.0.0": {
+      "type": "project",
+      "path": "../SunSet.Core/SunSet.Core.csproj",
+      "msbuildProject": "../SunSet.Core/SunSet.Core.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net9.0": []
+    "net9.0": [
+      "SunSet.Core >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Administrator\\.nuget\\packages\\": {},
@@ -38,7 +57,11 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\SunSet.Core.csproj": {
+              "projectPath": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\SunSet.Core.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
