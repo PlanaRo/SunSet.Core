@@ -11,4 +11,7 @@ public class UploadFileResult
 {
     [JsonPropertyName("file_id")]
     public string FileId { get; init; } = string.Empty;
+
+    public override string ToString() =>
+        $"[{nameof(UploadFileResult)}] FileId: {FileId}";
 }

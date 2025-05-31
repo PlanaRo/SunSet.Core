@@ -15,4 +15,7 @@ public class GetGroupFilesResult
 
     [JsonPropertyName("folders")]
     public List<GroupFolder> Folders { get; init; } = [];
+
+    public override string ToString() =>
+        $"[{nameof(GetGroupFilesResult)} Files: {Files.Count}, Folders: {Folders.Count}]";
 }

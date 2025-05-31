@@ -12,4 +12,7 @@ public class PrivateMessageResult
 
     [JsonPropertyName("client_seq")]
     public long ClientSeq { get; init; }
+
+    public override string ToString() =>
+        $"[{nameof(PrivateMessageResult)}] MessageSeq: {MessageSeq}, Time: {Time}, ClientSeq: {ClientSeq}";
 }

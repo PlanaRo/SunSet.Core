@@ -26,4 +26,9 @@ public class GroupAnnouncementResult
 
     [JsonPropertyName("image_url")]
     public string ImageUrl { get; init; } = string.Empty;
+
+    public override string ToString()
+    {
+        return $"[{nameof(GroupAnnouncementResult)}] GroupUin: {GroupUin}, AnnouncementId: {AnnouncementId}, UserUin: {UserUin}, Time: {Time}, Content: {Content}, ImageUrl: {ImageUrl}";
+    }
 }
