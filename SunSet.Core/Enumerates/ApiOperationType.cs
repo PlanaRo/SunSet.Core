@@ -110,6 +110,41 @@ public enum ApiOperationType
     REJECT_REQUEST,
 
     [Description("accept_request")]
-    ACCEPT_REQUEST
+    ACCEPT_REQUEST,
+    #endregion
+
+    #region File API
+    [Description("upload_private_file")]
+    UPLOAD_PRIVATE_FILE,
+
+    [Description("upload_group_file")]
+    UPLOAD_GROUP_FILE,
+
+    [Description("get_private_file_download_url")]
+    GET_PRIVATE_FILE_DOWNLOAD_URL,
+
+    [Description("get_group_file_download_url")]
+    GET_GROUP_FILE_DOWNLOAD_URL,
+
+    [Description("get_group_files")]
+    GET_GROUP_FILES,
+
+    [Description("delete_group_file")]
+    DELETE_GROUP_FILE,
+
+    [Description("rename_group_file")]
+    RENAME_GROUP_FILE,
+
+    [Description("move_group_file")]
+    MOVE_GROUP_FILE,
+
+    [Description("create_group_folder")]
+    CREATE_GROUP_FOLDER,
+
+    [Description("delete_group_folder")]
+    DELETE_GROUP_FOLDER,
+
+    [Description("rename_group_folder")]
+    RENAME_GROUP_FOLDER,
     #endregion
 }
