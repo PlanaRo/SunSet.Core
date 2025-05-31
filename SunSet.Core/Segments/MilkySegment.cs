@@ -11,4 +11,6 @@ public class MilkySegment
 
     [JsonPropertyName("data")]
     public BaseEntity Entity { get; set; } = new();
+
+    public override string ToString() => Entity.ToString()!;
 }

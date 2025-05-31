@@ -18,13 +18,13 @@ internal class MessageOperation : IOperationProcessor
             switch (msg.MessageScene)
             {
                 case "group":
-                    await bot.Invoke.Call(bot, node.Deserialize<MilkyGroupMessage>()!, token);
+                    await bot.Invoke.Call(bot, node.Deserialize<MilkyGroupMessage>()!);
                     break;
                 case "friend":
-                    await bot.Invoke.Call(bot, node.Deserialize<MilkyFriendMessage>()!, token);
+                    await bot.Invoke.Call(bot, node.Deserialize<MilkyFriendMessage>()!);
                     break;
                 case "temp":
-                    await bot.Invoke.Call(bot, node.Deserialize<MilkyTempMessage>()!, token);
+                    await bot.Invoke.Call(bot, node.Deserialize<MilkyTempMessage>()!);
                     break;
                 default:
                     throw new NotSupportedException($"Message scene '{msg.MessageScene}' is not supported.");
@@ -58,6 +58,9 @@ public class MilkyFriendMessage : MilkyBaseMessage
 
     [JsonPropertyName("client_seq")]
     public long ClientSeq { get; init; } = 0;
+
+    public override string ToPreviewString() =>
+        $"[{nameof(MilkyFriendMessage)}] {Friend.Nickname}({Friend.UserUin}): {Segments}";
 }
 
 public class MilkyGroupMessage : MilkyBaseMessage
@@ -67,10 +70,16 @@ public class MilkyGroupMessage : MilkyBaseMessage
 
     [JsonPropertyName("group_member")]
     public GroupMember Sender { get; set; } = new();
+
+    public override string ToPreviewString() =>
+        $"[{nameof(MilkyGroupMessage)}] {Group.Name}({Group.GroupUin})  (Sender: {Sender.Nickname}({Sender.UserUin})) : {Segments}";
 }
 
 public class MilkyTempMessage : MilkyBaseMessage
 {
     [JsonPropertyName("group")]
     public Group Group { get; set; } = new();
+
+    public override string ToPreviewString() =>
+        $"[{nameof(MilkyTempMessage)}] {Group.Name}({Group.GroupUin})  (Sender: {SenderUin}) : {Segments}";
 }

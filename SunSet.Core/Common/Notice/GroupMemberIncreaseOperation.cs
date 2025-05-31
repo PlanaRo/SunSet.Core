@@ -12,29 +12,25 @@ internal class GroupMemberIncreaseOperation : IOperationProcessor
     {
         if (node.Deserialize<MilkyGroupMemberIncrease>() is { } increase)
         {
-            await bot.Invoke.Call(bot, increase, token);
+            await bot.Invoke.Call(bot, increase);
         }
     }
 }
 
 public class MilkyGroupMemberIncrease : MilkyBaseData
 {
-    /// <summary>
-    /// 群号
-    /// </summary>
     [JsonPropertyName("group_id")]
     public uint GroupUin { get; init; }
-    /// <summary>
-    /// 新成员QQ
-    /// </summary>
+
     [JsonPropertyName("user_id")]
     public uint UserUin { get; init; }
-    /// <summary>
-    /// 操作人QQ
-    /// </summary>
+
     [JsonPropertyName("operator_id")]
     public uint OperatorUin { get; init; }
 
     [JsonPropertyName("invitor_id")]
     public uint InvitorUin { get; init; }
+
+    public override string ToPreviewString() =>
+        $"[{nameof(MilkyGroupMemberIncrease)}] GroupUin: {GroupUin}, UserUin: {UserUin}, OperatorUin: {OperatorUin}, InvitorUin: {InvitorUin}";
 }

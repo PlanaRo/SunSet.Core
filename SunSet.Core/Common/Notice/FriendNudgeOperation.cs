@@ -12,7 +12,7 @@ internal class FriendNudgeOperation : IOperationProcessor
     {
         if (node.Deserialize<MilkyFriendNudge>() is { } nudge)
         {
-            await bot.Invoke.Call(bot, nudge, token);
+            await bot.Invoke.Call(bot, nudge);
         }
     }
 }
@@ -28,4 +28,7 @@ public class MilkyFriendNudge : MilkyBaseData
 
     [JsonPropertyName("is_self_receive")]
     public bool IsSelfReceive { get; init; }
+
+    public override string ToPreviewString() =>
+        $"[{nameof(MilkyFriendNudge)}] {UserUin}: {(IsSelfSend ? "Sent" : "Received")} a nudge";
 }

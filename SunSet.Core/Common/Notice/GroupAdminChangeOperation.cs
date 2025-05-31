@@ -12,7 +12,7 @@ internal class GroupAdminChangeOperation : IOperationProcessor
     {
         if (node.Deserialize<MilkyGroupAdminChange>() is { } change)
         {
-            await bot.Invoke.Call(bot, change, token);
+            await bot.Invoke.Call(bot, change);
         }
     }
 }
@@ -27,4 +27,7 @@ public class MilkyGroupAdminChange : MilkyBaseData
 
     [JsonPropertyName("is_set")]
     public bool IsSet { get; init; }
+
+    public override string ToPreviewString() =>
+        $"[{nameof(MilkyGroupAdminChange)}] Group: {GroupUin}, User: {UserUin}, Action: {(IsSet ? "Set Admin" : "Removed Admin")}";
 }

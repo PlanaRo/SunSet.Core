@@ -17,12 +17,11 @@ internal class EntityConverter : JsonConverter<MilkySegment>
 
     public override MilkySegment? Read(ref Utf8JsonReader reader, Type typeToConvert, JsonSerializerOptions options)
     {
-        var jsonNode = JsonNode.Parse(ref reader);
+        var jsonNode = JsonSerializer.Deserialize<JsonNode>(ref reader, options);
         if (jsonNode?["type"]?.ToString() is string type)
         {
             if (_entityTypes.TryGetValue(type, out var entityType))
             {
-                Console.WriteLine(entityType);
                 var data = (BaseEntity)JsonSerializer.Deserialize(jsonNode["data"], entityType, options)!;
                 var segment = new MilkySegment
                 {
@@ -32,18 +31,7 @@ internal class EntityConverter : JsonConverter<MilkySegment>
                 return segment;
             }
         }
-        //if (jsonNode?["type"]?.ToString() is string type)
-        //{
-        //    if (_entityTypes.TryGetValue(type, out var entityType))
-        //    {
-        //        var data = (BaseEntity)JsonSerializer.Deserialize(jsonNode["data"], entityType, options)!;
-        //        return new MilkySegment
-        //        {
-        //            Type = type,
-        //            Entity = data
-        //        };
-        //    }
-        //}
+       
         return null;
     }
 

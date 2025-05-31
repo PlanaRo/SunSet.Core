@@ -12,7 +12,7 @@ internal class FriendFileUploadOperation : IOperationProcessor
     {
         if (node.Deserialize<MilkyFriendFileUpload>() is { } upload)
         {
-            await bot.Invoke.Call(bot, upload, token);
+            await bot.Invoke.Call(bot, upload);
         }
     }
 }
@@ -33,4 +33,7 @@ public class MilkyFriendFileUpload : MilkyBaseData
 
     [JsonPropertyName("is_self")]
     public bool IsSelf { get; init; }
+
+    public override string ToPreviewString() =>
+        $"[{nameof(MilkyFriendFileUpload)}] {UserUin}: {FileName} ({FileSize} bytes)";
 }

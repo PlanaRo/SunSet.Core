@@ -12,24 +12,22 @@ internal class GroupNameChangeOperation : IOperationProcessor
     {
         if (node.Deserialize<MilkyGroupNameChange>() is { } change)
         {
-            await bot.Invoke.Call(bot, change, token);
+            await bot.Invoke.Call(bot, change);
         }
     }
 }
 
 public class MilkyGroupNameChange : MilkyBaseData
 {
-    /// <summary>
-    /// 群号
-    /// </summary>
     [JsonPropertyName("group_id")]
     public uint GroupUin { get; init; }
-    /// <summary>
-    /// 新群名
-    /// </summary>
+
     [JsonPropertyName("name")]
     public string Name { get; init; } = string.Empty;
 
     [JsonPropertyName("operator_id")]
     public uint OperatorUin { get; init; }
+
+    public override string ToPreviewString() =>
+        $"[{nameof(MilkyGroupNameChange)}] GroupUin: {GroupUin}, Name: {Name}, OperatorUin: {OperatorUin}";
 }

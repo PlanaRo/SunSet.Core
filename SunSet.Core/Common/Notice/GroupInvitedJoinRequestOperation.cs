@@ -12,7 +12,7 @@ internal class GroupInvitedJoinRequestOperation : IOperationProcessor
     {
         if (node.Deserialize<MilkyGroupInvitedJoinRequest>() is { } request)
         {
-            await bot.Invoke.Call(bot, request, token);
+            await bot.Invoke.Call(bot, request);
         }
     }
 }
@@ -20,24 +20,18 @@ internal class GroupInvitedJoinRequestOperation : IOperationProcessor
 
 public class MilkyGroupInvitedJoinRequest : MilkyBaseData
 {
-    /// <summary>
-    /// 邀请请求ID
-    /// </summary>
     [JsonPropertyName("request_id")]
     public string RequestId { get; init; } = string.Empty;
-    /// <summary>
-    /// QQ
-    /// </summary>
+
     [JsonPropertyName("operator_id")]
     public uint OperatorId { get; init; }
-    /// <summary>
-    /// 群号
-    /// </summary>
+
     [JsonPropertyName("group_id")]
     public uint GroupUin { get; init; }
-    /// <summary>
-    /// 邀请者id
-    /// </summary>
+
     [JsonPropertyName("invitee_id")]
     public uint InviteeUin { get; init; }
+
+    public override string ToPreviewString() =>
+        $"[{nameof(MilkyGroupInvitedJoinRequest)}] RequestId: {RequestId}, OperatorId: {OperatorId}, GroupUin: {GroupUin}, InviteeUin: {InviteeUin}";
 }

@@ -1,12 +1,15 @@
 ﻿using System.Net.WebSockets;
 using System.Text;
+using SunSet.Core.Log;
 
 namespace SunSet.Core.Network;
 
 // This class is a placeholder for WebSocket services.
 //正向Websocket服务类
-internal class WebSocketServices : IServices
+internal class WebSocketServices(LogContext log) : IServices
 {
+    private readonly LogContext _log = log;
+
     private readonly ClientWebSocket _client = new();
 
     public event Action<string>? OnMessageReceived;
@@ -21,6 +24,7 @@ internal class WebSocketServices : IServices
         {
             throw new InvalidOperationException("WebSocket connection failed.");
         }
+        _log.LogInformation($"WebSocket connected to {uri}.");
         await ReceiveLoopAsync(token);
     }
 

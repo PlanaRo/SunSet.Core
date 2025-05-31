@@ -3,6 +3,182 @@
   "WorkspaceRootPath": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E39A0448-82D9-48EE-BF84-B66E00E5C3F2}|SunSet\\SunSet.csproj|c:\\users\\administrator\\desktop\\sunset.core\\sunset\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E39A0448-82D9-48EE-BF84-B66E00E5C3F2}|SunSet\\SunSet.csproj|solutionrelative:sunset\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44879EF1-C2A2-908E-33E1-3300313C9A66}|SunSet.Core\\SunSet.Core.csproj|c:\\users\\administrator\\desktop\\sunset.core\\sunset.core\\common\\message\\messageoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44879EF1-C2A2-908E-33E1-3300313C9A66}|SunSet.Core\\SunSet.Core.csproj|solutionrelative:sunset.core\\common\\message\\messageoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44879EF1-C2A2-908E-33E1-3300313C9A66}|SunSet.Core\\SunSet.Core.csproj|c:\\users\\administrator\\desktop\\sunset.core\\sunset.core\\common\\eventhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44879EF1-C2A2-908E-33E1-3300313C9A66}|SunSet.Core\\SunSet.Core.csproj|solutionrelative:sunset.core\\common\\eventhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44879EF1-C2A2-908E-33E1-3300313C9A66}|SunSet.Core\\SunSet.Core.csproj|c:\\users\\administrator\\desktop\\sunset.core\\sunset.core\\common\\notice\\groupinvitedjoinrequestoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44879EF1-C2A2-908E-33E1-3300313C9A66}|SunSet.Core\\SunSet.Core.csproj|solutionrelative:sunset.core\\common\\notice\\groupinvitedjoinrequestoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44879EF1-C2A2-908E-33E1-3300313C9A66}|SunSet.Core\\SunSet.Core.csproj|c:\\users\\administrator\\desktop\\sunset.core\\sunset.core\\common\\message\\messagerecalloperationl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44879EF1-C2A2-908E-33E1-3300313C9A66}|SunSet.Core\\SunSet.Core.csproj|solutionrelative:sunset.core\\common\\message\\messagerecalloperationl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44879EF1-C2A2-908E-33E1-3300313C9A66}|SunSet.Core\\SunSet.Core.csproj|c:\\users\\administrator\\desktop\\sunset.core\\sunset.core\\botcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44879EF1-C2A2-908E-33E1-3300313C9A66}|SunSet.Core\\SunSet.Core.csproj|solutionrelative:sunset.core\\botcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44879EF1-C2A2-908E-33E1-3300313C9A66}|SunSet.Core\\SunSet.Core.csproj|c:\\users\\administrator\\desktop\\sunset.core\\sunset.core\\common\\notice\\groupwholemuteoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44879EF1-C2A2-908E-33E1-3300313C9A66}|SunSet.Core\\SunSet.Core.csproj|solutionrelative:sunset.core\\common\\notice\\groupwholemuteoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44879EF1-C2A2-908E-33E1-3300313C9A66}|SunSet.Core\\SunSet.Core.csproj|c:\\users\\administrator\\desktop\\sunset.core\\sunset.core\\common\\notice\\groupnudgeoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44879EF1-C2A2-908E-33E1-3300313C9A66}|SunSet.Core\\SunSet.Core.csproj|solutionrelative:sunset.core\\common\\notice\\groupnudgeoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44879EF1-C2A2-908E-33E1-3300313C9A66}|SunSet.Core\\SunSet.Core.csproj|c:\\users\\administrator\\desktop\\sunset.core\\sunset.core\\common\\notice\\groupnamechangeoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44879EF1-C2A2-908E-33E1-3300313C9A66}|SunSet.Core\\SunSet.Core.csproj|solutionrelative:sunset.core\\common\\notice\\groupnamechangeoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44879EF1-C2A2-908E-33E1-3300313C9A66}|SunSet.Core\\SunSet.Core.csproj|c:\\users\\administrator\\desktop\\sunset.core\\sunset.core\\common\\notice\\groupmuteoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44879EF1-C2A2-908E-33E1-3300313C9A66}|SunSet.Core\\SunSet.Core.csproj|solutionrelative:sunset.core\\common\\notice\\groupmuteoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44879EF1-C2A2-908E-33E1-3300313C9A66}|SunSet.Core\\SunSet.Core.csproj|c:\\users\\administrator\\desktop\\sunset.core\\sunset.core\\common\\notice\\groupmessagereactionoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44879EF1-C2A2-908E-33E1-3300313C9A66}|SunSet.Core\\SunSet.Core.csproj|solutionrelative:sunset.core\\common\\notice\\groupmessagereactionoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44879EF1-C2A2-908E-33E1-3300313C9A66}|SunSet.Core\\SunSet.Core.csproj|c:\\users\\administrator\\desktop\\sunset.core\\sunset.core\\common\\notice\\groupmemberincreaseoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44879EF1-C2A2-908E-33E1-3300313C9A66}|SunSet.Core\\SunSet.Core.csproj|solutionrelative:sunset.core\\common\\notice\\groupmemberincreaseoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44879EF1-C2A2-908E-33E1-3300313C9A66}|SunSet.Core\\SunSet.Core.csproj|c:\\users\\administrator\\desktop\\sunset.core\\sunset.core\\common\\notice\\groupmemberdecreaseoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44879EF1-C2A2-908E-33E1-3300313C9A66}|SunSet.Core\\SunSet.Core.csproj|solutionrelative:sunset.core\\common\\notice\\groupmemberdecreaseoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44879EF1-C2A2-908E-33E1-3300313C9A66}|SunSet.Core\\SunSet.Core.csproj|c:\\users\\administrator\\desktop\\sunset.core\\sunset.core\\common\\notice\\groupjoinrequestoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44879EF1-C2A2-908E-33E1-3300313C9A66}|SunSet.Core\\SunSet.Core.csproj|solutionrelative:sunset.core\\common\\notice\\groupjoinrequestoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44879EF1-C2A2-908E-33E1-3300313C9A66}|SunSet.Core\\SunSet.Core.csproj|c:\\users\\administrator\\desktop\\sunset.core\\sunset.core\\common\\notice\\groupinvitationrequestoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44879EF1-C2A2-908E-33E1-3300313C9A66}|SunSet.Core\\SunSet.Core.csproj|solutionrelative:sunset.core\\common\\notice\\groupinvitationrequestoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44879EF1-C2A2-908E-33E1-3300313C9A66}|SunSet.Core\\SunSet.Core.csproj|c:\\users\\administrator\\desktop\\sunset.core\\sunset.core\\common\\notice\\groupfileuploadoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44879EF1-C2A2-908E-33E1-3300313C9A66}|SunSet.Core\\SunSet.Core.csproj|solutionrelative:sunset.core\\common\\notice\\groupfileuploadoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44879EF1-C2A2-908E-33E1-3300313C9A66}|SunSet.Core\\SunSet.Core.csproj|c:\\users\\administrator\\desktop\\sunset.core\\sunset.core\\common\\notice\\groupessencemessagechangeoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44879EF1-C2A2-908E-33E1-3300313C9A66}|SunSet.Core\\SunSet.Core.csproj|solutionrelative:sunset.core\\common\\notice\\groupessencemessagechangeoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44879EF1-C2A2-908E-33E1-3300313C9A66}|SunSet.Core\\SunSet.Core.csproj|c:\\users\\administrator\\desktop\\sunset.core\\sunset.core\\common\\notice\\groupadminchangeoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44879EF1-C2A2-908E-33E1-3300313C9A66}|SunSet.Core\\SunSet.Core.csproj|solutionrelative:sunset.core\\common\\notice\\groupadminchangeoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44879EF1-C2A2-908E-33E1-3300313C9A66}|SunSet.Core\\SunSet.Core.csproj|c:\\users\\administrator\\desktop\\sunset.core\\sunset.core\\common\\notice\\friendrequestoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44879EF1-C2A2-908E-33E1-3300313C9A66}|SunSet.Core\\SunSet.Core.csproj|solutionrelative:sunset.core\\common\\notice\\friendrequestoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44879EF1-C2A2-908E-33E1-3300313C9A66}|SunSet.Core\\SunSet.Core.csproj|c:\\users\\administrator\\desktop\\sunset.core\\sunset.core\\common\\notice\\friendnudgeoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44879EF1-C2A2-908E-33E1-3300313C9A66}|SunSet.Core\\SunSet.Core.csproj|solutionrelative:sunset.core\\common\\notice\\friendnudgeoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44879EF1-C2A2-908E-33E1-3300313C9A66}|SunSet.Core\\SunSet.Core.csproj|c:\\users\\administrator\\desktop\\sunset.core\\sunset.core\\common\\notice\\friendfileuploadoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44879EF1-C2A2-908E-33E1-3300313C9A66}|SunSet.Core\\SunSet.Core.csproj|solutionrelative:sunset.core\\common\\notice\\friendfileuploadoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44879EF1-C2A2-908E-33E1-3300313C9A66}|SunSet.Core\\SunSet.Core.csproj|c:\\users\\administrator\\desktop\\sunset.core\\sunset.core\\segments\\messagechain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44879EF1-C2A2-908E-33E1-3300313C9A66}|SunSet.Core\\SunSet.Core.csproj|solutionrelative:sunset.core\\segments\\messagechain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44879EF1-C2A2-908E-33E1-3300313C9A66}|SunSet.Core\\SunSet.Core.csproj|c:\\users\\administrator\\desktop\\sunset.core\\sunset.core\\segments\\milkysegment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44879EF1-C2A2-908E-33E1-3300313C9A66}|SunSet.Core\\SunSet.Core.csproj|solutionrelative:sunset.core\\segments\\milkysegment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44879EF1-C2A2-908E-33E1-3300313C9A66}|SunSet.Core\\SunSet.Core.csproj|c:\\users\\administrator\\desktop\\sunset.core\\sunset.core\\segments\\entity\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44879EF1-C2A2-908E-33E1-3300313C9A66}|SunSet.Core\\SunSet.Core.csproj|solutionrelative:sunset.core\\segments\\entity\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44879EF1-C2A2-908E-33E1-3300313C9A66}|SunSet.Core\\SunSet.Core.csproj|c:\\users\\administrator\\desktop\\sunset.core\\sunset.core\\segments\\entity\\faceentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44879EF1-C2A2-908E-33E1-3300313C9A66}|SunSet.Core\\SunSet.Core.csproj|solutionrelative:sunset.core\\segments\\entity\\faceentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44879EF1-C2A2-908E-33E1-3300313C9A66}|SunSet.Core\\SunSet.Core.csproj|c:\\users\\administrator\\desktop\\sunset.core\\sunset.core\\segments\\entity\\xmlentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44879EF1-C2A2-908E-33E1-3300313C9A66}|SunSet.Core\\SunSet.Core.csproj|solutionrelative:sunset.core\\segments\\entity\\xmlentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44879EF1-C2A2-908E-33E1-3300313C9A66}|SunSet.Core\\SunSet.Core.csproj|c:\\users\\administrator\\desktop\\sunset.core\\sunset.core\\segments\\entity\\videoentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44879EF1-C2A2-908E-33E1-3300313C9A66}|SunSet.Core\\SunSet.Core.csproj|solutionrelative:sunset.core\\segments\\entity\\videoentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44879EF1-C2A2-908E-33E1-3300313C9A66}|SunSet.Core\\SunSet.Core.csproj|c:\\users\\administrator\\desktop\\sunset.core\\sunset.core\\segments\\entity\\replyentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44879EF1-C2A2-908E-33E1-3300313C9A66}|SunSet.Core\\SunSet.Core.csproj|solutionrelative:sunset.core\\segments\\entity\\replyentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44879EF1-C2A2-908E-33E1-3300313C9A66}|SunSet.Core\\SunSet.Core.csproj|c:\\users\\administrator\\desktop\\sunset.core\\sunset.core\\segments\\entity\\recordentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44879EF1-C2A2-908E-33E1-3300313C9A66}|SunSet.Core\\SunSet.Core.csproj|solutionrelative:sunset.core\\segments\\entity\\recordentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44879EF1-C2A2-908E-33E1-3300313C9A66}|SunSet.Core\\SunSet.Core.csproj|c:\\users\\administrator\\desktop\\sunset.core\\sunset.core\\segments\\entity\\mentionentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44879EF1-C2A2-908E-33E1-3300313C9A66}|SunSet.Core\\SunSet.Core.csproj|solutionrelative:sunset.core\\segments\\entity\\mentionentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44879EF1-C2A2-908E-33E1-3300313C9A66}|SunSet.Core\\SunSet.Core.csproj|c:\\users\\administrator\\desktop\\sunset.core\\sunset.core\\segments\\entity\\mentionallentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44879EF1-C2A2-908E-33E1-3300313C9A66}|SunSet.Core\\SunSet.Core.csproj|solutionrelative:sunset.core\\segments\\entity\\mentionallentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44879EF1-C2A2-908E-33E1-3300313C9A66}|SunSet.Core\\SunSet.Core.csproj|c:\\users\\administrator\\desktop\\sunset.core\\sunset.core\\segments\\entity\\marketfaceentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44879EF1-C2A2-908E-33E1-3300313C9A66}|SunSet.Core\\SunSet.Core.csproj|solutionrelative:sunset.core\\segments\\entity\\marketfaceentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44879EF1-C2A2-908E-33E1-3300313C9A66}|SunSet.Core\\SunSet.Core.csproj|c:\\users\\administrator\\desktop\\sunset.core\\sunset.core\\segments\\entity\\lightappentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44879EF1-C2A2-908E-33E1-3300313C9A66}|SunSet.Core\\SunSet.Core.csproj|solutionrelative:sunset.core\\segments\\entity\\lightappentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44879EF1-C2A2-908E-33E1-3300313C9A66}|SunSet.Core\\SunSet.Core.csproj|c:\\users\\administrator\\desktop\\sunset.core\\sunset.core\\segments\\entity\\imageentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44879EF1-C2A2-908E-33E1-3300313C9A66}|SunSet.Core\\SunSet.Core.csproj|solutionrelative:sunset.core\\segments\\entity\\imageentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44879EF1-C2A2-908E-33E1-3300313C9A66}|SunSet.Core\\SunSet.Core.csproj|c:\\users\\administrator\\desktop\\sunset.core\\sunset.core\\segments\\entity\\forwardentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44879EF1-C2A2-908E-33E1-3300313C9A66}|SunSet.Core\\SunSet.Core.csproj|solutionrelative:sunset.core\\segments\\entity\\forwardentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44879EF1-C2A2-908E-33E1-3300313C9A66}|SunSet.Core\\SunSet.Core.csproj|c:\\users\\administrator\\desktop\\sunset.core\\sunset.core\\segments\\entity\\textentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44879EF1-C2A2-908E-33E1-3300313C9A66}|SunSet.Core\\SunSet.Core.csproj|solutionrelative:sunset.core\\segments\\entity\\textentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44879EF1-C2A2-908E-33E1-3300313C9A66}|SunSet.Core\\SunSet.Core.csproj|c:\\users\\administrator\\desktop\\sunset.core\\sunset.core\\milky\\milkybasedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44879EF1-C2A2-908E-33E1-3300313C9A66}|SunSet.Core\\SunSet.Core.csproj|solutionrelative:sunset.core\\milky\\milkybasedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44879EF1-C2A2-908E-33E1-3300313C9A66}|SunSet.Core\\SunSet.Core.csproj|c:\\users\\administrator\\desktop\\sunset.core\\sunset.core\\log\\logcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44879EF1-C2A2-908E-33E1-3300313C9A66}|SunSet.Core\\SunSet.Core.csproj|solutionrelative:sunset.core\\log\\logcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44879EF1-C2A2-908E-33E1-3300313C9A66}|SunSet.Core\\SunSet.Core.csproj|c:\\users\\administrator\\desktop\\sunset.core\\sunset.core\\log\\botlogeventargs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44879EF1-C2A2-908E-33E1-3300313C9A66}|SunSet.Core\\SunSet.Core.csproj|solutionrelative:sunset.core\\log\\botlogeventargs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44879EF1-C2A2-908E-33E1-3300313C9A66}|SunSet.Core\\SunSet.Core.csproj|c:\\users\\administrator\\desktop\\sunset.core\\sunset.core\\network\\webhookservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44879EF1-C2A2-908E-33E1-3300313C9A66}|SunSet.Core\\SunSet.Core.csproj|solutionrelative:sunset.core\\network\\webhookservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44879EF1-C2A2-908E-33E1-3300313C9A66}|SunSet.Core\\SunSet.Core.csproj|c:\\users\\administrator\\desktop\\sunset.core\\sunset.core\\network\\websocketservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44879EF1-C2A2-908E-33E1-3300313C9A66}|SunSet.Core\\SunSet.Core.csproj|solutionrelative:sunset.core\\network\\websocketservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44879EF1-C2A2-908E-33E1-3300313C9A66}|SunSet.Core\\SunSet.Core.csproj|c:\\users\\administrator\\desktop\\sunset.core\\sunset.core\\enumerates\\loglevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44879EF1-C2A2-908E-33E1-3300313C9A66}|SunSet.Core\\SunSet.Core.csproj|solutionrelative:sunset.core\\enumerates\\loglevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44879EF1-C2A2-908E-33E1-3300313C9A66}|SunSet.Core\\SunSet.Core.csproj|c:\\users\\administrator\\desktop\\sunset.core\\sunset.core\\segments\\entityconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44879EF1-C2A2-908E-33E1-3300313C9A66}|SunSet.Core\\SunSet.Core.csproj|solutionrelative:sunset.core\\segments\\entityconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44879EF1-C2A2-908E-33E1-3300313C9A66}|SunSet.Core\\SunSet.Core.csproj|c:\\users\\administrator\\desktop\\sunset.core\\sunset.core\\segments\\entitytypeattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44879EF1-C2A2-908E-33E1-3300313C9A66}|SunSet.Core\\SunSet.Core.csproj|solutionrelative:sunset.core\\segments\\entitytypeattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{44879EF1-C2A2-908E-33E1-3300313C9A66}|SunSet.Core\\SunSet.Core.csproj|c:\\users\\administrator\\desktop\\sunset.core\\sunset.core\\common\\apirequesthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{44879EF1-C2A2-908E-33E1-3300313C9A66}|SunSet.Core\\SunSet.Core.csproj|solutionrelative:sunset.core\\common\\apirequesthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -47,28 +223,8 @@
       "RelativeMoniker": "D:0:0:{44879EF1-C2A2-908E-33E1-3300313C9A66}|SunSet.Core\\SunSet.Core.csproj|solutionrelative:sunset.core\\common\\apiresultargs\\privatemessageresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{44879EF1-C2A2-908E-33E1-3300313C9A66}|SunSet.Core\\SunSet.Core.csproj|c:\\users\\administrator\\desktop\\sunset.core\\sunset.core\\segments\\entitytypeattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44879EF1-C2A2-908E-33E1-3300313C9A66}|SunSet.Core\\SunSet.Core.csproj|solutionrelative:sunset.core\\segments\\entitytypeattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{44879EF1-C2A2-908E-33E1-3300313C9A66}|SunSet.Core\\SunSet.Core.csproj|c:\\users\\administrator\\desktop\\sunset.core\\sunset.core\\segments\\milkysegment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44879EF1-C2A2-908E-33E1-3300313C9A66}|SunSet.Core\\SunSet.Core.csproj|solutionrelative:sunset.core\\segments\\milkysegment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{44879EF1-C2A2-908E-33E1-3300313C9A66}|SunSet.Core\\SunSet.Core.csproj|c:\\users\\administrator\\desktop\\sunset.core\\sunset.core\\segments\\entity\\mentionallentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44879EF1-C2A2-908E-33E1-3300313C9A66}|SunSet.Core\\SunSet.Core.csproj|solutionrelative:sunset.core\\segments\\entity\\mentionallentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{44879EF1-C2A2-908E-33E1-3300313C9A66}|SunSet.Core\\SunSet.Core.csproj|c:\\users\\administrator\\desktop\\sunset.core\\sunset.core\\segments\\entity\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44879EF1-C2A2-908E-33E1-3300313C9A66}|SunSet.Core\\SunSet.Core.csproj|solutionrelative:sunset.core\\segments\\entity\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{44879EF1-C2A2-908E-33E1-3300313C9A66}|SunSet.Core\\SunSet.Core.csproj|c:\\users\\administrator\\desktop\\sunset.core\\sunset.core\\network\\iservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{44879EF1-C2A2-908E-33E1-3300313C9A66}|SunSet.Core\\SunSet.Core.csproj|solutionrelative:sunset.core\\network\\iservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{44879EF1-C2A2-908E-33E1-3300313C9A66}|SunSet.Core\\SunSet.Core.csproj|c:\\users\\administrator\\desktop\\sunset.core\\sunset.core\\milky\\milkybasedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44879EF1-C2A2-908E-33E1-3300313C9A66}|SunSet.Core\\SunSet.Core.csproj|solutionrelative:sunset.core\\milky\\milkybasedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{44879EF1-C2A2-908E-33E1-3300313C9A66}|SunSet.Core\\SunSet.Core.csproj|c:\\users\\administrator\\desktop\\sunset.core\\sunset.core\\common\\ioperationprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -79,100 +235,8 @@
       "RelativeMoniker": "D:0:0:{44879EF1-C2A2-908E-33E1-3300313C9A66}|SunSet.Core\\SunSet.Core.csproj|solutionrelative:sunset.core\\common\\operationadapter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{44879EF1-C2A2-908E-33E1-3300313C9A66}|SunSet.Core\\SunSet.Core.csproj|c:\\users\\administrator\\desktop\\sunset.core\\sunset.core\\common\\eventhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44879EF1-C2A2-908E-33E1-3300313C9A66}|SunSet.Core\\SunSet.Core.csproj|solutionrelative:sunset.core\\common\\eventhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{44879EF1-C2A2-908E-33E1-3300313C9A66}|SunSet.Core\\SunSet.Core.csproj|c:\\users\\administrator\\desktop\\sunset.core\\sunset.core\\segments\\messagechain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44879EF1-C2A2-908E-33E1-3300313C9A66}|SunSet.Core\\SunSet.Core.csproj|solutionrelative:sunset.core\\segments\\messagechain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{44879EF1-C2A2-908E-33E1-3300313C9A66}|SunSet.Core\\SunSet.Core.csproj|c:\\users\\administrator\\desktop\\sunset.core\\sunset.core\\common\\notice\\friendfileuploadoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44879EF1-C2A2-908E-33E1-3300313C9A66}|SunSet.Core\\SunSet.Core.csproj|solutionrelative:sunset.core\\common\\notice\\friendfileuploadoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{44879EF1-C2A2-908E-33E1-3300313C9A66}|SunSet.Core\\SunSet.Core.csproj|c:\\users\\administrator\\desktop\\sunset.core\\sunset.core\\common\\notice\\groupadminchangeoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44879EF1-C2A2-908E-33E1-3300313C9A66}|SunSet.Core\\SunSet.Core.csproj|solutionrelative:sunset.core\\common\\notice\\groupadminchangeoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{44879EF1-C2A2-908E-33E1-3300313C9A66}|SunSet.Core\\SunSet.Core.csproj|c:\\users\\administrator\\desktop\\sunset.core\\sunset.core\\common\\notice\\groupfileuploadoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44879EF1-C2A2-908E-33E1-3300313C9A66}|SunSet.Core\\SunSet.Core.csproj|solutionrelative:sunset.core\\common\\notice\\groupfileuploadoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{44879EF1-C2A2-908E-33E1-3300313C9A66}|SunSet.Core\\SunSet.Core.csproj|c:\\users\\administrator\\desktop\\sunset.core\\sunset.core\\common\\notice\\groupmemberincreaseoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44879EF1-C2A2-908E-33E1-3300313C9A66}|SunSet.Core\\SunSet.Core.csproj|solutionrelative:sunset.core\\common\\notice\\groupmemberincreaseoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{44879EF1-C2A2-908E-33E1-3300313C9A66}|SunSet.Core\\SunSet.Core.csproj|c:\\users\\administrator\\desktop\\sunset.core\\sunset.core\\common\\notice\\groupwholemuteoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44879EF1-C2A2-908E-33E1-3300313C9A66}|SunSet.Core\\SunSet.Core.csproj|solutionrelative:sunset.core\\common\\notice\\groupwholemuteoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{44879EF1-C2A2-908E-33E1-3300313C9A66}|SunSet.Core\\SunSet.Core.csproj|c:\\users\\administrator\\desktop\\sunset.core\\sunset.core\\common\\notice\\groupnudgeoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44879EF1-C2A2-908E-33E1-3300313C9A66}|SunSet.Core\\SunSet.Core.csproj|solutionrelative:sunset.core\\common\\notice\\groupnudgeoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{44879EF1-C2A2-908E-33E1-3300313C9A66}|SunSet.Core\\SunSet.Core.csproj|c:\\users\\administrator\\desktop\\sunset.core\\sunset.core\\common\\notice\\groupnamechangeoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44879EF1-C2A2-908E-33E1-3300313C9A66}|SunSet.Core\\SunSet.Core.csproj|solutionrelative:sunset.core\\common\\notice\\groupnamechangeoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{44879EF1-C2A2-908E-33E1-3300313C9A66}|SunSet.Core\\SunSet.Core.csproj|c:\\users\\administrator\\desktop\\sunset.core\\sunset.core\\common\\notice\\groupmuteoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44879EF1-C2A2-908E-33E1-3300313C9A66}|SunSet.Core\\SunSet.Core.csproj|solutionrelative:sunset.core\\common\\notice\\groupmuteoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{44879EF1-C2A2-908E-33E1-3300313C9A66}|SunSet.Core\\SunSet.Core.csproj|c:\\users\\administrator\\desktop\\sunset.core\\sunset.core\\common\\notice\\groupmessagereactionoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44879EF1-C2A2-908E-33E1-3300313C9A66}|SunSet.Core\\SunSet.Core.csproj|solutionrelative:sunset.core\\common\\notice\\groupmessagereactionoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{44879EF1-C2A2-908E-33E1-3300313C9A66}|SunSet.Core\\SunSet.Core.csproj|c:\\users\\administrator\\desktop\\sunset.core\\sunset.core\\common\\notice\\groupmemberdecreaseoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44879EF1-C2A2-908E-33E1-3300313C9A66}|SunSet.Core\\SunSet.Core.csproj|solutionrelative:sunset.core\\common\\notice\\groupmemberdecreaseoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{44879EF1-C2A2-908E-33E1-3300313C9A66}|SunSet.Core\\SunSet.Core.csproj|c:\\users\\administrator\\desktop\\sunset.core\\sunset.core\\common\\notice\\groupjoinrequestoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44879EF1-C2A2-908E-33E1-3300313C9A66}|SunSet.Core\\SunSet.Core.csproj|solutionrelative:sunset.core\\common\\notice\\groupjoinrequestoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{44879EF1-C2A2-908E-33E1-3300313C9A66}|SunSet.Core\\SunSet.Core.csproj|c:\\users\\administrator\\desktop\\sunset.core\\sunset.core\\common\\notice\\groupinvitedjoinrequestoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44879EF1-C2A2-908E-33E1-3300313C9A66}|SunSet.Core\\SunSet.Core.csproj|solutionrelative:sunset.core\\common\\notice\\groupinvitedjoinrequestoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{44879EF1-C2A2-908E-33E1-3300313C9A66}|SunSet.Core\\SunSet.Core.csproj|c:\\users\\administrator\\desktop\\sunset.core\\sunset.core\\common\\notice\\groupinvitationrequestoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44879EF1-C2A2-908E-33E1-3300313C9A66}|SunSet.Core\\SunSet.Core.csproj|solutionrelative:sunset.core\\common\\notice\\groupinvitationrequestoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{44879EF1-C2A2-908E-33E1-3300313C9A66}|SunSet.Core\\SunSet.Core.csproj|c:\\users\\administrator\\desktop\\sunset.core\\sunset.core\\common\\notice\\groupessencemessagechangeoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44879EF1-C2A2-908E-33E1-3300313C9A66}|SunSet.Core\\SunSet.Core.csproj|solutionrelative:sunset.core\\common\\notice\\groupessencemessagechangeoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{44879EF1-C2A2-908E-33E1-3300313C9A66}|SunSet.Core\\SunSet.Core.csproj|c:\\users\\administrator\\desktop\\sunset.core\\sunset.core\\common\\notice\\friendrequestoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44879EF1-C2A2-908E-33E1-3300313C9A66}|SunSet.Core\\SunSet.Core.csproj|solutionrelative:sunset.core\\common\\notice\\friendrequestoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{44879EF1-C2A2-908E-33E1-3300313C9A66}|SunSet.Core\\SunSet.Core.csproj|c:\\users\\administrator\\desktop\\sunset.core\\sunset.core\\common\\notice\\friendnudgeoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44879EF1-C2A2-908E-33E1-3300313C9A66}|SunSet.Core\\SunSet.Core.csproj|solutionrelative:sunset.core\\common\\notice\\friendnudgeoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{44879EF1-C2A2-908E-33E1-3300313C9A66}|SunSet.Core\\SunSet.Core.csproj|c:\\users\\administrator\\desktop\\sunset.core\\sunset.core\\common\\message\\messageoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44879EF1-C2A2-908E-33E1-3300313C9A66}|SunSet.Core\\SunSet.Core.csproj|solutionrelative:sunset.core\\common\\message\\messageoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{44879EF1-C2A2-908E-33E1-3300313C9A66}|SunSet.Core\\SunSet.Core.csproj|c:\\users\\administrator\\desktop\\sunset.core\\sunset.core\\common\\message\\messagerecalloperationl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44879EF1-C2A2-908E-33E1-3300313C9A66}|SunSet.Core\\SunSet.Core.csproj|solutionrelative:sunset.core\\common\\message\\messagerecalloperationl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{44879EF1-C2A2-908E-33E1-3300313C9A66}|SunSet.Core\\SunSet.Core.csproj|c:\\users\\administrator\\desktop\\sunset.core\\sunset.core\\sunset.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{44879EF1-C2A2-908E-33E1-3300313C9A66}|SunSet.Core\\SunSet.Core.csproj|solutionrelative:sunset.core\\sunset.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E39A0448-82D9-48EE-BF84-B66E00E5C3F2}|SunSet\\SunSet.csproj|c:\\users\\administrator\\desktop\\sunset.core\\sunset\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E39A0448-82D9-48EE-BF84-B66E00E5C3F2}|SunSet\\SunSet.csproj|solutionrelative:sunset\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{44879EF1-C2A2-908E-33E1-3300313C9A66}|SunSet.Core\\SunSet.Core.csproj|c:\\users\\administrator\\desktop\\sunset.core\\sunset.core\\segments\\entity\\imageentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44879EF1-C2A2-908E-33E1-3300313C9A66}|SunSet.Core\\SunSet.Core.csproj|solutionrelative:sunset.core\\segments\\entity\\imageentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{44879EF1-C2A2-908E-33E1-3300313C9A66}|SunSet.Core\\SunSet.Core.csproj|c:\\users\\administrator\\desktop\\sunset.core\\sunset.core\\segments\\entityconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44879EF1-C2A2-908E-33E1-3300313C9A66}|SunSet.Core\\SunSet.Core.csproj|solutionrelative:sunset.core\\segments\\entityconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{44879EF1-C2A2-908E-33E1-3300313C9A66}|SunSet.Core\\SunSet.Core.csproj|c:\\users\\administrator\\desktop\\sunset.core\\sunset.core\\milky\\info\\friendcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -194,128 +258,570 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CreateFolderResult.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Common\\ApiResultArgs\\CreateFolderResult.cs",
-              "RelativeDocumentMoniker": "SunSet.Core\\Common\\ApiResultArgs\\CreateFolderResult.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Common\\ApiResultArgs\\CreateFolderResult.cs",
-              "RelativeToolTip": "SunSet.Core\\Common\\ApiResultArgs\\CreateFolderResult.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAgAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "GroupNameChangeOperation.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Common\\Notice\\GroupNameChangeOperation.cs",
+              "RelativeDocumentMoniker": "SunSet.Core\\Common\\Notice\\GroupNameChangeOperation.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Common\\Notice\\GroupNameChangeOperation.cs",
+              "RelativeToolTip": "SunSet.Core\\Common\\Notice\\GroupNameChangeOperation.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAIA2wA4AAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T03:36:43.425Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "GetGroupFilesResult.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Common\\ApiResultArgs\\GetGroupFilesResult.cs",
-              "RelativeDocumentMoniker": "SunSet.Core\\Common\\ApiResultArgs\\GetGroupFilesResult.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Common\\ApiResultArgs\\GetGroupFilesResult.cs",
-              "RelativeToolTip": "SunSet.Core\\Common\\ApiResultArgs\\GetGroupFilesResult.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T03:30:50.993Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "GroupFolder.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Milky\\Info\\GroupFolder.cs",
-              "RelativeDocumentMoniker": "SunSet.Core\\Milky\\Info\\GroupFolder.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Milky\\Info\\GroupFolder.cs",
-              "RelativeToolTip": "SunSet.Core\\Milky\\Info\\GroupFolder.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAIA2wAkAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T03:23:05.921Z",
+              "WhenOpened": "2025-05-31T01:20:05.239Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "GroupFile.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Milky\\Info\\GroupFile.cs",
-              "RelativeDocumentMoniker": "SunSet.Core\\Milky\\Info\\GroupFile.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Milky\\Info\\GroupFile.cs",
-              "RelativeToolTip": "SunSet.Core\\Milky\\Info\\GroupFile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAWAAAAAAAAAA==",
+              "Title": "GroupInvitedJoinRequestOperation.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Common\\Notice\\GroupInvitedJoinRequestOperation.cs",
+              "RelativeDocumentMoniker": "SunSet.Core\\Common\\Notice\\GroupInvitedJoinRequestOperation.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Common\\Notice\\GroupInvitedJoinRequestOperation.cs",
+              "RelativeToolTip": "SunSet.Core\\Common\\Notice\\GroupInvitedJoinRequestOperation.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAIA2wBcAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T03:18:18.297Z",
+              "WhenOpened": "2025-05-31T00:47:56.279Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EventHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Common\\EventHandler.cs",
+              "RelativeDocumentMoniker": "SunSet.Core\\Common\\EventHandler.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Common\\EventHandler.cs",
+              "RelativeToolTip": "SunSet.Core\\Common\\EventHandler.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAewE8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T23:18:44.07Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GroupNudgeOperation.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Common\\Notice\\GroupNudgeOperation.cs",
+              "RelativeDocumentMoniker": "SunSet.Core\\Common\\Notice\\GroupNudgeOperation.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Common\\Notice\\GroupNudgeOperation.cs",
+              "RelativeToolTip": "SunSet.Core\\Common\\Notice\\GroupNudgeOperation.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAewB8AAABwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T01:33:40.814Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "FileDownloadUrlResult.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Common\\ApiResultArgs\\FileDownloadUrlResult.cs",
-              "RelativeDocumentMoniker": "SunSet.Core\\Common\\ApiResultArgs\\FileDownloadUrlResult.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Common\\ApiResultArgs\\FileDownloadUrlResult.cs",
-              "RelativeToolTip": "SunSet.Core\\Common\\ApiResultArgs\\FileDownloadUrlResult.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA7AAAAAAAAAA==",
+              "Title": "GroupWholeMuteOperation.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Common\\Notice\\GroupWholeMuteOperation.cs",
+              "RelativeDocumentMoniker": "SunSet.Core\\Common\\Notice\\GroupWholeMuteOperation.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Common\\Notice\\GroupWholeMuteOperation.cs",
+              "RelativeToolTip": "SunSet.Core\\Common\\Notice\\GroupWholeMuteOperation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAewA4AAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T03:15:01.164Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "UploadFileResult.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Common\\ApiResultArgs\\UploadFileResult.cs",
-              "RelativeDocumentMoniker": "SunSet.Core\\Common\\ApiResultArgs\\UploadFileResult.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Common\\ApiResultArgs\\UploadFileResult.cs",
-              "RelativeToolTip": "SunSet.Core\\Common\\ApiResultArgs\\UploadFileResult.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T03:13:04.846Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "GroupAnnouncementResult.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Common\\ApiResultArgs\\GroupAnnouncementResult.cs",
-              "RelativeDocumentMoniker": "SunSet.Core\\Common\\ApiResultArgs\\GroupAnnouncementResult.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Common\\ApiResultArgs\\GroupAnnouncementResult.cs",
-              "RelativeToolTip": "SunSet.Core\\Common\\ApiResultArgs\\GroupAnnouncementResult.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T02:55:31.673Z",
+              "WhenOpened": "2025-05-31T01:31:00.484Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ApiRequestHandler.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Common\\ApiRequestHandler.cs",
-              "RelativeDocumentMoniker": "SunSet.Core\\Common\\ApiRequestHandler.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Common\\ApiRequestHandler.cs",
-              "RelativeToolTip": "SunSet.Core\\Common\\ApiRequestHandler.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAIA/wCUAAAAEAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet\\Program.cs",
+              "RelativeDocumentMoniker": "SunSet\\Program.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet\\Program.cs*",
+              "RelativeToolTip": "SunSet\\Program.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T23:05:50.957Z",
+              "WhenOpened": "2025-05-30T23:58:10.633Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BotContext.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\BotContext.cs",
+              "RelativeDocumentMoniker": "SunSet.Core\\BotContext.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\BotContext.cs",
+              "RelativeToolTip": "SunSet.Core\\BotContext.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAAABwAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T04:42:49.702Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MessageRecallOperationl.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Common\\Message\\MessageRecallOperationl.cs",
+              "RelativeDocumentMoniker": "SunSet.Core\\Common\\Message\\MessageRecallOperationl.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Common\\Message\\MessageRecallOperationl.cs",
+              "RelativeToolTip": "SunSet.Core\\Common\\Message\\MessageRecallOperationl.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAMBCwA4AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T00:26:38.78Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MessageOperation.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Common\\Message\\MessageOperation.cs",
+              "RelativeDocumentMoniker": "SunSet.Core\\Common\\Message\\MessageOperation.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Common\\Message\\MessageOperation.cs",
+              "RelativeToolTip": "SunSet.Core\\Common\\Message\\MessageOperation.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAASwFMAAABrAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T00:14:50.845Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "TempResourceResult.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Common\\ApiResultArgs\\TempResourceResult.cs",
-              "RelativeDocumentMoniker": "SunSet.Core\\Common\\ApiResultArgs\\TempResourceResult.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Common\\ApiResultArgs\\TempResourceResult.cs",
-              "RelativeToolTip": "SunSet.Core\\Common\\ApiResultArgs\\TempResourceResult.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA0AAAAAAAAAA==",
+              "Title": "GroupMuteOperation.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Common\\Notice\\GroupMuteOperation.cs",
+              "RelativeDocumentMoniker": "SunSet.Core\\Common\\Notice\\GroupMuteOperation.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Common\\Notice\\GroupMuteOperation.cs",
+              "RelativeToolTip": "SunSet.Core\\Common\\Notice\\GroupMuteOperation.cs",
+              "ViewState": "AgIAABgAAADgPfvYjFwxwCUAAACBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T02:12:19.384Z",
+              "WhenOpened": "2025-05-31T01:27:32.017Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "GroupMessageReactionOperation.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Common\\Notice\\GroupMessageReactionOperation.cs",
+              "RelativeDocumentMoniker": "SunSet.Core\\Common\\Notice\\GroupMessageReactionOperation.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Common\\Notice\\GroupMessageReactionOperation.cs",
+              "RelativeToolTip": "SunSet.Core\\Common\\Notice\\GroupMessageReactionOperation.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAASwCUAAACgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T01:24:01.654Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
+              "Title": "GroupMemberIncreaseOperation.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Common\\Notice\\GroupMemberIncreaseOperation.cs",
+              "RelativeDocumentMoniker": "SunSet.Core\\Common\\Notice\\GroupMemberIncreaseOperation.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Common\\Notice\\GroupMemberIncreaseOperation.cs",
+              "RelativeToolTip": "SunSet.Core\\Common\\Notice\\GroupMemberIncreaseOperation.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAYwCIAAACPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T01:13:21.973Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "GroupMemberdecreaseOperation.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Common\\Notice\\GroupMemberdecreaseOperation.cs",
+              "RelativeDocumentMoniker": "SunSet.Core\\Common\\Notice\\GroupMemberdecreaseOperation.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Common\\Notice\\GroupMemberdecreaseOperation.cs",
+              "RelativeToolTip": "SunSet.Core\\Common\\Notice\\GroupMemberdecreaseOperation.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T01:16:26.663Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "GroupJoinRequestOperation.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Common\\Notice\\GroupJoinRequestOperation.cs",
+              "RelativeDocumentMoniker": "SunSet.Core\\Common\\Notice\\GroupJoinRequestOperation.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Common\\Notice\\GroupJoinRequestOperation.cs",
+              "RelativeToolTip": "SunSet.Core\\Common\\Notice\\GroupJoinRequestOperation.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAYwCIAAACIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T00:44:16.058Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "GroupInvitationRequestOperation.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Common\\Notice\\GroupInvitationRequestOperation.cs",
+              "RelativeDocumentMoniker": "SunSet.Core\\Common\\Notice\\GroupInvitationRequestOperation.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Common\\Notice\\GroupInvitationRequestOperation.cs",
+              "RelativeToolTip": "SunSet.Core\\Common\\Notice\\GroupInvitationRequestOperation.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAIA/wCAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T00:52:04.709Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "GroupFileUploadOperation.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Common\\Notice\\GroupFileUploadOperation.cs",
+              "RelativeDocumentMoniker": "SunSet.Core\\Common\\Notice\\GroupFileUploadOperation.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Common\\Notice\\GroupFileUploadOperation.cs",
+              "RelativeToolTip": "SunSet.Core\\Common\\Notice\\GroupFileUploadOperation.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAADAAAAB3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T01:37:00.897Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "GroupEssenceMessageChangeOperation.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Common\\Notice\\GroupEssenceMessageChangeOperation.cs",
+              "RelativeDocumentMoniker": "SunSet.Core\\Common\\Notice\\GroupEssenceMessageChangeOperation.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Common\\Notice\\GroupEssenceMessageChangeOperation.cs",
+              "RelativeToolTip": "SunSet.Core\\Common\\Notice\\GroupEssenceMessageChangeOperation.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAewCYAAAB/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T01:09:20.399Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "GroupAdminChangeOperation.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Common\\Notice\\GroupAdminChangeOperation.cs",
+              "RelativeDocumentMoniker": "SunSet.Core\\Common\\Notice\\GroupAdminChangeOperation.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Common\\Notice\\GroupAdminChangeOperation.cs",
+              "RelativeToolTip": "SunSet.Core\\Common\\Notice\\GroupAdminChangeOperation.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAIA2wB8AAACDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T01:03:44.876Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "FriendRequestOperation.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Common\\Notice\\FriendRequestOperation.cs",
+              "RelativeDocumentMoniker": "SunSet.Core\\Common\\Notice\\FriendRequestOperation.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Common\\Notice\\FriendRequestOperation.cs",
+              "RelativeToolTip": "SunSet.Core\\Common\\Notice\\FriendRequestOperation.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAArwCIAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T00:35:20.988Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "FriendNudgeOperation.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Common\\Notice\\FriendNudgeOperation.cs",
+              "RelativeDocumentMoniker": "SunSet.Core\\Common\\Notice\\FriendNudgeOperation.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Common\\Notice\\FriendNudgeOperation.cs",
+              "RelativeToolTip": "SunSet.Core\\Common\\Notice\\FriendNudgeOperation.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAASwBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T00:56:20.464Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "FriendFileUploadOperation.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Common\\Notice\\FriendFileUploadOperation.cs",
+              "RelativeDocumentMoniker": "SunSet.Core\\Common\\Notice\\FriendFileUploadOperation.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Common\\Notice\\FriendFileUploadOperation.cs",
+              "RelativeToolTip": "SunSet.Core\\Common\\Notice\\FriendFileUploadOperation.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAewA4AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T01:00:50.905Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "MessageChain.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Segments\\MessageChain.cs",
+              "RelativeDocumentMoniker": "SunSet.Core\\Segments\\MessageChain.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Segments\\MessageChain.cs",
+              "RelativeToolTip": "SunSet.Core\\Segments\\MessageChain.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAIAwwDsAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T23:38:42.612Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "MilkySegment.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Segments\\MilkySegment.cs",
+              "RelativeDocumentMoniker": "SunSet.Core\\Segments\\MilkySegment.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Segments\\MilkySegment.cs",
+              "RelativeToolTip": "SunSet.Core\\Segments\\MilkySegment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA4AAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T01:55:40.526Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "BaseEntity.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Segments\\Entity\\BaseEntity.cs",
+              "RelativeDocumentMoniker": "SunSet.Core\\Segments\\Entity\\BaseEntity.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Segments\\Entity\\BaseEntity.cs",
+              "RelativeToolTip": "SunSet.Core\\Segments\\Entity\\BaseEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T01:55:48.389Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "FaceEntity.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Segments\\Entity\\FaceEntity.cs",
+              "RelativeDocumentMoniker": "SunSet.Core\\Segments\\Entity\\FaceEntity.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Segments\\Entity\\FaceEntity.cs",
+              "RelativeToolTip": "SunSet.Core\\Segments\\Entity\\FaceEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA8AAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T04:01:12.799Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "XmlEntity.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Segments\\Entity\\XmlEntity.cs",
+              "RelativeDocumentMoniker": "SunSet.Core\\Segments\\Entity\\XmlEntity.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Segments\\Entity\\XmlEntity.cs",
+              "RelativeToolTip": "SunSet.Core\\Segments\\Entity\\XmlEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T04:14:24.583Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "VideoEntity.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Segments\\Entity\\VideoEntity.cs",
+              "RelativeDocumentMoniker": "SunSet.Core\\Segments\\Entity\\VideoEntity.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Segments\\Entity\\VideoEntity.cs",
+              "RelativeToolTip": "SunSet.Core\\Segments\\Entity\\VideoEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T04:07:24.063Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ReplyEntity.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Segments\\Entity\\ReplyEntity.cs",
+              "RelativeDocumentMoniker": "SunSet.Core\\Segments\\Entity\\ReplyEntity.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Segments\\Entity\\ReplyEntity.cs",
+              "RelativeToolTip": "SunSet.Core\\Segments\\Entity\\ReplyEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T04:03:20.867Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "RecordEntity.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Segments\\Entity\\RecordEntity.cs",
+              "RelativeDocumentMoniker": "SunSet.Core\\Segments\\Entity\\RecordEntity.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Segments\\Entity\\RecordEntity.cs",
+              "RelativeToolTip": "SunSet.Core\\Segments\\Entity\\RecordEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T04:05:26.608Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "MentionEntity.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Segments\\Entity\\MentionEntity.cs",
+              "RelativeDocumentMoniker": "SunSet.Core\\Segments\\Entity\\MentionEntity.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Segments\\Entity\\MentionEntity.cs",
+              "RelativeToolTip": "SunSet.Core\\Segments\\Entity\\MentionEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T04:03:01.938Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "MentionAllEntity.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Segments\\Entity\\MentionAllEntity.cs",
+              "RelativeDocumentMoniker": "SunSet.Core\\Segments\\Entity\\MentionAllEntity.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Segments\\Entity\\MentionAllEntity.cs",
+              "RelativeToolTip": "SunSet.Core\\Segments\\Entity\\MentionAllEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T01:58:17.728Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "MarketFaceEntity.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Segments\\Entity\\MarketFaceEntity.cs",
+              "RelativeDocumentMoniker": "SunSet.Core\\Segments\\Entity\\MarketFaceEntity.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Segments\\Entity\\MarketFaceEntity.cs",
+              "RelativeToolTip": "SunSet.Core\\Segments\\Entity\\MarketFaceEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T04:10:38.843Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "LightAppEntity.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Segments\\Entity\\LightAppEntity.cs",
+              "RelativeDocumentMoniker": "SunSet.Core\\Segments\\Entity\\LightAppEntity.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Segments\\Entity\\LightAppEntity.cs",
+              "RelativeToolTip": "SunSet.Core\\Segments\\Entity\\LightAppEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T04:11:55.952Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "ImageEntity.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Segments\\Entity\\ImageEntity.cs",
+              "RelativeDocumentMoniker": "SunSet.Core\\Segments\\Entity\\ImageEntity.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Segments\\Entity\\ImageEntity.cs",
+              "RelativeToolTip": "SunSet.Core\\Segments\\Entity\\ImageEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBQAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T23:39:47.978Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "ForwardEntity.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Segments\\Entity\\ForwardEntity.cs",
+              "RelativeDocumentMoniker": "SunSet.Core\\Segments\\Entity\\ForwardEntity.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Segments\\Entity\\ForwardEntity.cs",
+              "RelativeToolTip": "SunSet.Core\\Segments\\Entity\\ForwardEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T04:09:01.347Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "TextEntity.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Segments\\Entity\\TextEntity.cs",
+              "RelativeDocumentMoniker": "SunSet.Core\\Segments\\Entity\\TextEntity.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Segments\\Entity\\TextEntity.cs",
+              "RelativeToolTip": "SunSet.Core\\Segments\\Entity\\TextEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T04:14:10.096Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "MilkyBaseData.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Milky\\MilkyBaseData.cs",
+              "RelativeDocumentMoniker": "SunSet.Core\\Milky\\MilkyBaseData.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Milky\\MilkyBaseData.cs",
+              "RelativeToolTip": "SunSet.Core\\Milky\\MilkyBaseData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAYAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T01:58:12.946Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "LogContext.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Log\\LogContext.cs",
+              "RelativeDocumentMoniker": "SunSet.Core\\Log\\LogContext.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Log\\LogContext.cs",
+              "RelativeToolTip": "SunSet.Core\\Log\\LogContext.cs",
+              "ViewState": "AgIAAAAAAAAAoLi2QKwWwBMAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T05:01:06.561Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "BotLogEventArgs.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Log\\BotLogEventArgs.cs",
+              "RelativeDocumentMoniker": "SunSet.Core\\Log\\BotLogEventArgs.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Log\\BotLogEventArgs.cs",
+              "RelativeToolTip": "SunSet.Core\\Log\\BotLogEventArgs.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T05:34:57.431Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "WebHookServices.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Network\\WebHookServices.cs",
+              "RelativeDocumentMoniker": "SunSet.Core\\Network\\WebHookServices.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Network\\WebHookServices.cs",
+              "RelativeToolTip": "SunSet.Core\\Network\\WebHookServices.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAIAwwBIAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T05:47:24.999Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "WebSocketServices.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Network\\WebSocketServices.cs",
+              "RelativeDocumentMoniker": "SunSet.Core\\Network\\WebSocketServices.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Network\\WebSocketServices.cs",
+              "RelativeToolTip": "SunSet.Core\\Network\\WebSocketServices.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAewBoAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T05:46:47.054Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "LogLevel.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Enumerates\\LogLevel.cs",
+              "RelativeDocumentMoniker": "SunSet.Core\\Enumerates\\LogLevel.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Enumerates\\LogLevel.cs",
+              "RelativeToolTip": "SunSet.Core\\Enumerates\\LogLevel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T05:07:49.27Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "EntityConverter.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Segments\\EntityConverter.cs",
+              "RelativeDocumentMoniker": "SunSet.Core\\Segments\\EntityConverter.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Segments\\EntityConverter.cs",
+              "RelativeToolTip": "SunSet.Core\\Segments\\EntityConverter.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAewAsAAABbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T23:44:22.467Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
               "Title": "EntityTypeAttribute.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Segments\\EntityTypeAttribute.cs",
               "RelativeDocumentMoniker": "SunSet.Core\\Segments\\EntityTypeAttribute.cs",
@@ -328,20 +834,124 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "MentionAllEntity.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Segments\\Entity\\MentionAllEntity.cs",
-              "RelativeDocumentMoniker": "SunSet.Core\\Segments\\Entity\\MentionAllEntity.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Segments\\Entity\\MentionAllEntity.cs",
-              "RelativeToolTip": "SunSet.Core\\Segments\\Entity\\MentionAllEntity.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 45,
+              "Title": "CreateFolderResult.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Common\\ApiResultArgs\\CreateFolderResult.cs",
+              "RelativeDocumentMoniker": "SunSet.Core\\Common\\ApiResultArgs\\CreateFolderResult.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Common\\ApiResultArgs\\CreateFolderResult.cs",
+              "RelativeToolTip": "SunSet.Core\\Common\\ApiResultArgs\\CreateFolderResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T01:58:17.728Z",
+              "WhenOpened": "2025-05-31T03:36:43.425Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 46,
+              "Title": "GetGroupFilesResult.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Common\\ApiResultArgs\\GetGroupFilesResult.cs",
+              "RelativeDocumentMoniker": "SunSet.Core\\Common\\ApiResultArgs\\GetGroupFilesResult.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Common\\ApiResultArgs\\GetGroupFilesResult.cs",
+              "RelativeToolTip": "SunSet.Core\\Common\\ApiResultArgs\\GetGroupFilesResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T03:30:50.993Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "ApiRequestHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Common\\ApiRequestHandler.cs",
+              "RelativeDocumentMoniker": "SunSet.Core\\Common\\ApiRequestHandler.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Common\\ApiRequestHandler.cs",
+              "RelativeToolTip": "SunSet.Core\\Common\\ApiRequestHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T23:05:50.957Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "GroupFile.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Milky\\Info\\GroupFile.cs",
+              "RelativeDocumentMoniker": "SunSet.Core\\Milky\\Info\\GroupFile.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Milky\\Info\\GroupFile.cs",
+              "RelativeToolTip": "SunSet.Core\\Milky\\Info\\GroupFile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T03:18:18.297Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "GroupFolder.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Milky\\Info\\GroupFolder.cs",
+              "RelativeDocumentMoniker": "SunSet.Core\\Milky\\Info\\GroupFolder.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Milky\\Info\\GroupFolder.cs",
+              "RelativeToolTip": "SunSet.Core\\Milky\\Info\\GroupFolder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIA2wAkAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T03:23:05.921Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "UploadFileResult.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Common\\ApiResultArgs\\UploadFileResult.cs",
+              "RelativeDocumentMoniker": "SunSet.Core\\Common\\ApiResultArgs\\UploadFileResult.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Common\\ApiResultArgs\\UploadFileResult.cs",
+              "RelativeToolTip": "SunSet.Core\\Common\\ApiResultArgs\\UploadFileResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T03:13:04.846Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "FileDownloadUrlResult.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Common\\ApiResultArgs\\FileDownloadUrlResult.cs",
+              "RelativeDocumentMoniker": "SunSet.Core\\Common\\ApiResultArgs\\FileDownloadUrlResult.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Common\\ApiResultArgs\\FileDownloadUrlResult.cs",
+              "RelativeToolTip": "SunSet.Core\\Common\\ApiResultArgs\\FileDownloadUrlResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T03:15:01.164Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "GroupAnnouncementResult.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Common\\ApiResultArgs\\GroupAnnouncementResult.cs",
+              "RelativeDocumentMoniker": "SunSet.Core\\Common\\ApiResultArgs\\GroupAnnouncementResult.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Common\\ApiResultArgs\\GroupAnnouncementResult.cs",
+              "RelativeToolTip": "SunSet.Core\\Common\\ApiResultArgs\\GroupAnnouncementResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T02:55:31.673Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "TempResourceResult.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Common\\ApiResultArgs\\TempResourceResult.cs",
+              "RelativeDocumentMoniker": "SunSet.Core\\Common\\ApiResultArgs\\TempResourceResult.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Common\\ApiResultArgs\\TempResourceResult.cs",
+              "RelativeToolTip": "SunSet.Core\\Common\\ApiResultArgs\\TempResourceResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T02:12:19.384Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
               "Title": "IServices.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Network\\IServices.cs",
               "RelativeDocumentMoniker": "SunSet.Core\\Network\\IServices.cs",
@@ -354,46 +964,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "MilkyBaseData.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Milky\\MilkyBaseData.cs",
-              "RelativeDocumentMoniker": "SunSet.Core\\Milky\\MilkyBaseData.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Milky\\MilkyBaseData.cs",
-              "RelativeToolTip": "SunSet.Core\\Milky\\MilkyBaseData.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T01:58:12.946Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "BaseEntity.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Segments\\Entity\\BaseEntity.cs",
-              "RelativeDocumentMoniker": "SunSet.Core\\Segments\\Entity\\BaseEntity.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Segments\\Entity\\BaseEntity.cs",
-              "RelativeToolTip": "SunSet.Core\\Segments\\Entity\\BaseEntity.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T01:55:48.389Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "MilkySegment.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Segments\\MilkySegment.cs",
-              "RelativeDocumentMoniker": "SunSet.Core\\Segments\\MilkySegment.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Segments\\MilkySegment.cs",
-              "RelativeToolTip": "SunSet.Core\\Segments\\MilkySegment.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T01:55:40.526Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 51,
               "Title": "ApiOperationType.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Enumerates\\ApiOperationType.cs",
               "RelativeDocumentMoniker": "SunSet.Core\\Enumerates\\ApiOperationType.cs",
@@ -406,7 +977,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 56,
               "Title": "IOperationProcessor.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Common\\IOperationProcessor.cs",
               "RelativeDocumentMoniker": "SunSet.Core\\Common\\IOperationProcessor.cs",
@@ -419,7 +990,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 54,
               "Title": "PrivateMessageResult.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Common\\ApiResultArgs\\PrivateMessageResult.cs",
               "RelativeDocumentMoniker": "SunSet.Core\\Common\\ApiResultArgs\\PrivateMessageResult.cs",
@@ -432,72 +1003,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "GroupMemberIncreaseOperation.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Common\\Notice\\GroupMemberIncreaseOperation.cs",
-              "RelativeDocumentMoniker": "SunSet.Core\\Common\\Notice\\GroupMemberIncreaseOperation.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Common\\Notice\\GroupMemberIncreaseOperation.cs",
-              "RelativeToolTip": "SunSet.Core\\Common\\Notice\\GroupMemberIncreaseOperation.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAIA2wBMAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T01:13:21.973Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "EventHandler.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Common\\EventHandler.cs",
-              "RelativeDocumentMoniker": "SunSet.Core\\Common\\EventHandler.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Common\\EventHandler.cs",
-              "RelativeToolTip": "SunSet.Core\\Common\\EventHandler.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAIAwwDAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T23:18:44.07Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "GroupWholeMuteOperation.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Common\\Notice\\GroupWholeMuteOperation.cs",
-              "RelativeDocumentMoniker": "SunSet.Core\\Common\\Notice\\GroupWholeMuteOperation.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Common\\Notice\\GroupWholeMuteOperation.cs",
-              "RelativeToolTip": "SunSet.Core\\Common\\Notice\\GroupWholeMuteOperation.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAQwBQAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T01:31:00.484Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "GroupFileUploadOperation.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Common\\Notice\\GroupFileUploadOperation.cs",
-              "RelativeDocumentMoniker": "SunSet.Core\\Common\\Notice\\GroupFileUploadOperation.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Common\\Notice\\GroupFileUploadOperation.cs",
-              "RelativeToolTip": "SunSet.Core\\Common\\Notice\\GroupFileUploadOperation.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAIA2wBMAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T01:37:00.897Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "GroupAdminChangeOperation.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Common\\Notice\\GroupAdminChangeOperation.cs",
-              "RelativeDocumentMoniker": "SunSet.Core\\Common\\Notice\\GroupAdminChangeOperation.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Common\\Notice\\GroupAdminChangeOperation.cs",
-              "RelativeToolTip": "SunSet.Core\\Common\\Notice\\GroupAdminChangeOperation.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAIA2wBMAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T01:03:44.876Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 57,
               "Title": "OperationAdapter.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Common\\OperationAdapter.cs",
               "RelativeDocumentMoniker": "SunSet.Core\\Common\\OperationAdapter.cs",
@@ -510,202 +1016,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "GroupNudgeOperation.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Common\\Notice\\GroupNudgeOperation.cs",
-              "RelativeDocumentMoniker": "SunSet.Core\\Common\\Notice\\GroupNudgeOperation.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Common\\Notice\\GroupNudgeOperation.cs",
-              "RelativeToolTip": "SunSet.Core\\Common\\Notice\\GroupNudgeOperation.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAewAcAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T01:33:40.814Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "GroupNameChangeOperation.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Common\\Notice\\GroupNameChangeOperation.cs",
-              "RelativeDocumentMoniker": "SunSet.Core\\Common\\Notice\\GroupNameChangeOperation.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Common\\Notice\\GroupNameChangeOperation.cs",
-              "RelativeToolTip": "SunSet.Core\\Common\\Notice\\GroupNameChangeOperation.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAIA2wCEAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T01:20:05.239Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "FriendFileUploadOperation.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Common\\Notice\\FriendFileUploadOperation.cs",
-              "RelativeDocumentMoniker": "SunSet.Core\\Common\\Notice\\FriendFileUploadOperation.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Common\\Notice\\FriendFileUploadOperation.cs",
-              "RelativeToolTip": "SunSet.Core\\Common\\Notice\\FriendFileUploadOperation.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T01:00:50.905Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "MessageChain.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Segments\\MessageChain.cs",
-              "RelativeDocumentMoniker": "SunSet.Core\\Segments\\MessageChain.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Segments\\MessageChain.cs",
-              "RelativeToolTip": "SunSet.Core\\Segments\\MessageChain.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAewC0AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T23:38:42.612Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "GroupMuteOperation.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Common\\Notice\\GroupMuteOperation.cs",
-              "RelativeDocumentMoniker": "SunSet.Core\\Common\\Notice\\GroupMuteOperation.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Common\\Notice\\GroupMuteOperation.cs",
-              "RelativeToolTip": "SunSet.Core\\Common\\Notice\\GroupMuteOperation.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAIA2wCYAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T01:27:32.017Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "GroupMessageReactionOperation.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Common\\Notice\\GroupMessageReactionOperation.cs",
-              "RelativeDocumentMoniker": "SunSet.Core\\Common\\Notice\\GroupMessageReactionOperation.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Common\\Notice\\GroupMessageReactionOperation.cs",
-              "RelativeToolTip": "SunSet.Core\\Common\\Notice\\GroupMessageReactionOperation.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T01:24:01.654Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "GroupMemberdecreaseOperation.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Common\\Notice\\GroupMemberdecreaseOperation.cs",
-              "RelativeDocumentMoniker": "SunSet.Core\\Common\\Notice\\GroupMemberdecreaseOperation.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Common\\Notice\\GroupMemberdecreaseOperation.cs",
-              "RelativeToolTip": "SunSet.Core\\Common\\Notice\\GroupMemberdecreaseOperation.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T01:16:26.663Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "GroupJoinRequestOperation.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Common\\Notice\\GroupJoinRequestOperation.cs",
-              "RelativeDocumentMoniker": "SunSet.Core\\Common\\Notice\\GroupJoinRequestOperation.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Common\\Notice\\GroupJoinRequestOperation.cs",
-              "RelativeToolTip": "SunSet.Core\\Common\\Notice\\GroupJoinRequestOperation.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAuwB8AAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T00:44:16.058Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "GroupInvitedJoinRequestOperation.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Common\\Notice\\GroupInvitedJoinRequestOperation.cs",
-              "RelativeDocumentMoniker": "SunSet.Core\\Common\\Notice\\GroupInvitedJoinRequestOperation.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Common\\Notice\\GroupInvitedJoinRequestOperation.cs",
-              "RelativeToolTip": "SunSet.Core\\Common\\Notice\\GroupInvitedJoinRequestOperation.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T00:47:56.279Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "GroupInvitationRequestOperation.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Common\\Notice\\GroupInvitationRequestOperation.cs",
-              "RelativeDocumentMoniker": "SunSet.Core\\Common\\Notice\\GroupInvitationRequestOperation.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Common\\Notice\\GroupInvitationRequestOperation.cs",
-              "RelativeToolTip": "SunSet.Core\\Common\\Notice\\GroupInvitationRequestOperation.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T00:52:04.709Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "GroupEssenceMessageChangeOperation.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Common\\Notice\\GroupEssenceMessageChangeOperation.cs",
-              "RelativeDocumentMoniker": "SunSet.Core\\Common\\Notice\\GroupEssenceMessageChangeOperation.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Common\\Notice\\GroupEssenceMessageChangeOperation.cs",
-              "RelativeToolTip": "SunSet.Core\\Common\\Notice\\GroupEssenceMessageChangeOperation.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAewB4AAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T01:09:20.399Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "FriendRequestOperation.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Common\\Notice\\FriendRequestOperation.cs",
-              "RelativeDocumentMoniker": "SunSet.Core\\Common\\Notice\\FriendRequestOperation.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Common\\Notice\\FriendRequestOperation.cs",
-              "RelativeToolTip": "SunSet.Core\\Common\\Notice\\FriendRequestOperation.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAACAAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T00:35:20.988Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "FriendNudgeOperation.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Common\\Notice\\FriendNudgeOperation.cs",
-              "RelativeDocumentMoniker": "SunSet.Core\\Common\\Notice\\FriendNudgeOperation.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Common\\Notice\\FriendNudgeOperation.cs",
-              "RelativeToolTip": "SunSet.Core\\Common\\Notice\\FriendNudgeOperation.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA4AAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T00:56:20.464Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "MessageRecallOperationl.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Common\\Message\\MessageRecallOperationl.cs",
-              "RelativeDocumentMoniker": "SunSet.Core\\Common\\Message\\MessageRecallOperationl.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Common\\Message\\MessageRecallOperationl.cs",
-              "RelativeToolTip": "SunSet.Core\\Common\\Message\\MessageRecallOperationl.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAewAMAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T00:26:38.78Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "MessageOperation.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Common\\Message\\MessageOperation.cs",
-              "RelativeDocumentMoniker": "SunSet.Core\\Common\\Message\\MessageOperation.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Common\\Message\\MessageOperation.cs",
-              "RelativeToolTip": "SunSet.Core\\Common\\Message\\MessageOperation.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T00:14:50.845Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 58,
               "Title": "SunSet.Core",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\SunSet.Core.csproj",
               "RelativeDocumentMoniker": "SunSet.Core\\SunSet.Core.csproj",
@@ -718,46 +1029,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet\\Program.cs",
-              "RelativeDocumentMoniker": "SunSet\\Program.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet\\Program.cs",
-              "RelativeToolTip": "SunSet\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAABAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T23:58:10.633Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 41,
-              "Title": "ImageEntity.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Segments\\Entity\\ImageEntity.cs",
-              "RelativeDocumentMoniker": "SunSet.Core\\Segments\\Entity\\ImageEntity.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Segments\\Entity\\ImageEntity.cs",
-              "RelativeToolTip": "SunSet.Core\\Segments\\Entity\\ImageEntity.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAUAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T23:39:47.978Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "EntityConverter.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Segments\\EntityConverter.cs",
-              "RelativeDocumentMoniker": "SunSet.Core\\Segments\\EntityConverter.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Segments\\EntityConverter.cs",
-              "RelativeToolTip": "SunSet.Core\\Segments\\EntityConverter.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T23:44:22.467Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 59,
               "Title": "FriendCategory.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Milky\\Info\\FriendCategory.cs",
               "RelativeDocumentMoniker": "SunSet.Core\\Milky\\Info\\FriendCategory.cs",
@@ -770,7 +1042,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 61,
               "Title": "CustomEventAttribute.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Common\\CustomEventAttribute.cs",
               "RelativeDocumentMoniker": "SunSet.Core\\Common\\CustomEventAttribute.cs",
@@ -783,7 +1055,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 60,
               "Title": "GroupMessageResult.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SunSet.Core\\SunSet.Core\\Common\\ApiResultArgs\\GroupMessageResult.cs",
               "RelativeDocumentMoniker": "SunSet.Core\\Common\\ApiResultArgs\\GroupMessageResult.cs",

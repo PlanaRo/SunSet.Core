@@ -1,5 +1,4 @@
-﻿
-using SunSet.Core;
+﻿using SunSet.Core;
 
 var bot = BotContext.CreateFactory(new()
 {
@@ -9,17 +8,21 @@ var bot = BotContext.CreateFactory(new()
     ServiceType = SunSet.Core.Enumerates.ServicesType.Websocket
 });
 
-bot.Invoke.OnGroupMessageReceived += async (sender, message, token) =>
+bot.Invoke.BotLogEvent += async (sender, log) =>
 {
-    if(message.SenderUin == bot.BotUin)
+    await Console.Out.WriteLineAsync($"[{log.Level}] {log.Message}");
+};
+
+bot.Invoke.OnGroupMessageReceived += async (sender, message) =>
+{
+    if(message.SenderUin == bot.BotUin || message.GroupUin != 1097364579)
     {
-        Console.WriteLine($"{message.Segments} from self, ignoring.");
+        //Console.WriteLine($"{message.Segments} from self, ignoring.");
         return;
-    }   
-    Console.WriteLine($"Group Message from {message.GroupUin}: {message.Segments.Count}");
+    }
+    //Console.WriteLine($"Group Message from {message.GroupUin}: {message.Segments}");
     message.Segments.GroupUin = message.GroupUin;
-    await bot.Api.SendGroupMsg(message.Segments, token);
-    // You can add more logic here to respond to the message
+    await bot.Api.SendGroupMsg(message.Segments);
 };
 
 bot.StarAsync(new CancellationToken()).GetAwaiter().GetResult();

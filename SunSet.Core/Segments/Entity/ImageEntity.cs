@@ -16,4 +16,7 @@ public class ImageEntity : BaseEntity
 
     [JsonPropertyName("sub_type")]
     public string SubType { get; set; } = "normal";
+
+    public override string ToString() =>
+        $"[Image: {ResourceId}, TempUrl: {TempUrl}, Summary: {Summary}, SubType: {SubType}]";
 }

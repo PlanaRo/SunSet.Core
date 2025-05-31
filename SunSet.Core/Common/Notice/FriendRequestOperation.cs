@@ -12,7 +12,7 @@ internal class FriendRequestOperation : IOperationProcessor
     {
         if (node.Deserialize<MilkyFriendRequest>() is { } request)
         {
-            await bot.Invoke.Call(bot, request, token);
+            await bot.Invoke.Call(bot, request);
         }
     }
 }
@@ -30,4 +30,7 @@ public class MilkyFriendRequest : MilkyBaseData
 
     [JsonPropertyName("via")]
     public string Via { get; init; } = string.Empty;
+
+    public override string ToPreviewString() =>
+        $"[{nameof(MilkyFriendRequest)}] {OperatorId}: {Comment} (via: {Via})";
 }

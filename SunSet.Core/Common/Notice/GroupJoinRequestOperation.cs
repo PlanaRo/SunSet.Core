@@ -12,7 +12,7 @@ internal class GroupJoinRequestOperation : IOperationProcessor
     {
         if (node.Deserialize<MilkyGroupJoinRequest>() is { } request)
         {
-            await bot.Invoke.Call(bot, request, token);
+            await bot.Invoke.Call(bot, request);
         }
     }
 }
@@ -30,4 +30,7 @@ public class MilkyGroupJoinRequest : MilkyBaseData
 
     [JsonPropertyName("group_id")]
     public uint GroupUin { get; init; }
+
+    public override string ToPreviewString() =>
+        $"[{nameof(MilkyGroupJoinRequest)}] RequestId: {RequestId}, OperatorId: {OperatorId}, GroupUin: {GroupUin}, Comment: {Comment}";
 }
