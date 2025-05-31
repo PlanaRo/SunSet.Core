@@ -28,7 +28,7 @@ public class BotContext
             _ => throw new NotSupportedException($"Service type {config.ServiceType} is not supported.")
         };
         Config = config;
-        Api = new ApiRequestHandler(this); 
+        Api = new ApiRequestHandler(this);
         _adapter = new OperationAdapter(this);
     }
 

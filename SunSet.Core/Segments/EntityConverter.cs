@@ -46,11 +46,11 @@ internal class EntityConverter : JsonConverter<MilkySegment>
         //}
         return null;
     }
-    
+
     public override void Write(Utf8JsonWriter writer, MilkySegment value, JsonSerializerOptions options)
     {
         writer.WriteStartObject();
-    
+
         writer.WritePropertyName("type");
         writer.WriteStringValue(value.Type);
         writer.WritePropertyName("data");

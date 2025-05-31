@@ -30,7 +30,7 @@ public class MessageChain : List<MilkySegment>
     public MessageChain Text(string text)
     {
         Add(new()
-        { 
+        {
             Type = "text",
             Entity = new TextEntity
             {

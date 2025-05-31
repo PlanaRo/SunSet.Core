@@ -71,7 +71,7 @@ public enum ApiOperationType
     [Description("set_group_member_card")]
     SET_GROUP_MEMBER_CARD,
 
-    [Description("set_group_member_special_title")] 
+    [Description("set_group_member_special_title")]
     SET_GROUP_MEMBER_SPECIAL_TITLE,
 
     [Description("set_group_member_admin")]

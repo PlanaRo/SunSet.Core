@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace SunSet.Core.Common;
+﻿namespace SunSet.Core.Common;
 
 /// <summary>
 /// 初始化一个新的 MikyEventTypeAttribute 实例
