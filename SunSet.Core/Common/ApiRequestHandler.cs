@@ -6,7 +6,7 @@ using System.Text.Json.Serialization;
 using SunSet.Core.Common.ApiResultArgs;
 using SunSet.Core.Enumerates;
 using SunSet.Core.Milky.Info;
-using SunSet.Core.Milky.Message;
+using SunSet.Core.Operation.Message;
 using SunSet.Core.Segments;
 
 namespace SunSet.Core.Common;
@@ -55,11 +55,11 @@ public class ApiRequestHandler
 
     public async Task<ApiResult<MilkyGroupMessage>> GetGroupMessage(long groupUin, long messageId, CancellationToken cancellationToken = default)
     {
-        return await Request<MilkyGroupMessage>(new 
+        return await Request<MilkyGroupMessage>(new
         {
             message_scene = "group",
             peer_id = groupUin,
-            message_seq = messageId 
+            message_seq = messageId
         }, ApiOperationType.GET_MESSAGE, cancellationToken);
     }
 

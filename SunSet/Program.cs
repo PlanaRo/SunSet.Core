@@ -13,14 +13,13 @@ bot.Invoke.OnGroupMessageReceived += async (sender, message, token) =>
 {
     if(message.SenderUin == bot.BotUin)
     {
-        Console.WriteLine("Received a group message with an invalid sender UIN.");
+        Console.WriteLine($"{message.Segments} from self, ignoring.");
         return;
     }   
     Console.WriteLine($"Group Message from {message.GroupUin}: {message.Segments.Count}");
     message.Segments.GroupUin = message.GroupUin;
-    await sender.Api.SendGroupMsg(message.Segments);
+    await bot.Api.SendGroupMsg(message.Segments, token);
     // You can add more logic here to respond to the message
 };
 
 bot.StarAsync(new CancellationToken()).GetAwaiter().GetResult();
-Console.ReadLine();

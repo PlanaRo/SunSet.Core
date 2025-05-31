@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Reflection;
-using System.Text;
+﻿using System.Reflection;
 using System.Text.Json;
 using SunSet.Core.Milky;
 
@@ -28,7 +24,7 @@ internal class OperationAdapter
             .Where(t => t.IsDefined(typeof(CustomEventAttribute)) && t.GetInterfaces().Contains(typeof(IOperationProcessor))))
         {
             var attribute = type.GetCustomAttribute<CustomEventAttribute>()!;
-            
+
             if (Activator.CreateInstance(type) is IOperationProcessor handler)
             {
                 _operationHandlers[attribute.EventType] = handler;
