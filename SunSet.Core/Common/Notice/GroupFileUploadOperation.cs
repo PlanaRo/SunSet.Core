@@ -12,7 +12,7 @@ internal class GroupFileUploadOperation : IOperationProcessor
     {
         if (node.Deserialize<MilkyGroupFileUpload>() is { } upload)
         {
-            await bot.Invoke.Call(bot, upload, token);
+            await bot.Invoke.Call(bot, upload);
         }
     }
 }
@@ -43,4 +43,9 @@ public class MilkyGroupFileUpload : MilkyBaseData
     /// </summary>
     [JsonPropertyName("file_size")]
     public long FileSize { get; init; }
+
+    public override string ToPreviewString()
+    {
+        return $"[{nameof(MilkyGroupFileUpload)}] GroupId: {GroupUin}, UserId: {UserUin}, FileName: {FileName}, FieSize: {FileSize} bytes";
+    }
 }

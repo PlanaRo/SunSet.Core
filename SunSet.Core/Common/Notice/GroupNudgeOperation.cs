@@ -12,7 +12,7 @@ internal class GroupNudgeOperation : IOperationProcessor
     {
         if (node.Deserialize<MilkyGroupNudge>() is { } nudge)
         {
-            await bot.Invoke.Call(bot, nudge, token);
+            await bot.Invoke.Call(bot, nudge);
         }
     }
 }
@@ -27,4 +27,7 @@ public class MilkyGroupNudge : MilkyBaseData
 
     [JsonPropertyName("receiver_id")]
     public uint ReceiverUin { get; init; }
+
+    public override string ToPreviewString() =>
+        $"[{nameof(MilkyGroupNudge)}] GroupUin: {GroupUin}, SenderUin: {SenderUin}, ReceiverUin: {ReceiverUin}";
 }

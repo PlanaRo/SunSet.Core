@@ -12,16 +12,13 @@ internal class GroupWholeMuteOperation : IOperationProcessor
     {
         if (node.Deserialize<MilkyGroupWholeMute>() is { } mute)
         {
-            await bot.Invoke.Call(bot, mute, token);
+            await bot.Invoke.Call(bot, mute);
         }
     }
 }
 
 public class MilkyGroupWholeMute : MilkyBaseData
 {
-    /// <summary>
-    /// 群号
-    /// </summary>
     [JsonPropertyName("group_id")]
     public uint GroupUin { get; init; }
 
@@ -30,4 +27,7 @@ public class MilkyGroupWholeMute : MilkyBaseData
 
     [JsonPropertyName("is_mute")]
     public bool IsMute { get; init; }
+
+    public override string ToPreviewString() =>
+        $"[{nameof(MilkyGroupWholeMute)}] GroupUin: {GroupUin}, OperatorUin: {OperatorUin}, IsMute: {IsMute}";
 }

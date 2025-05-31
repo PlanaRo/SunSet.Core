@@ -12,7 +12,7 @@ internal class GroupEssenceMessageChangeOperation : IOperationProcessor
     {
         if (node.Deserialize<MilkyGroupEssenceMessageChange>() is { } change)
         {
-            await bot.Invoke.Call(bot, change, token);
+            await bot.Invoke.Call(bot, change);
         }
     }
 }
@@ -34,4 +34,7 @@ public class MilkyGroupEssenceMessageChange : MilkyBaseData
     /// </summary>
     [JsonPropertyName("is_set")]
     public bool IsSet { get; init; }
+
+    public override string ToPreviewString() =>
+        $"[{nameof(MilkyGroupEssenceMessageChange)}] GroupId: {GroupUin} MessageSeq: {MessageSeq} {(IsSet ? "set" : "unset")}";
 }

@@ -12,7 +12,7 @@ public class MessageRecallOperationl : IOperationProcessor
     {
         if (node.Deserialize<MilkyMessageRecall>() is { } msg)
         {
-            await bot.Invoke.Call(bot, msg, token);
+            await bot.Invoke.Call(bot, msg);
         }
     }
 }
@@ -33,4 +33,7 @@ public class MilkyMessageRecall : MilkyBaseData
 
     [JsonPropertyName("operator_id")]
     public uint OperatorUin { get; init; }
+
+    public override string ToPreviewString() =>
+        $"[{nameof(MilkyMessageRecall)}] MessageScene: {MessageScene}, GroupUin: {GroupUin}, MessageSeq: {MessageSeq}, SenderUin: {SenderUin}, OperatorUin: {OperatorUin}";
 }

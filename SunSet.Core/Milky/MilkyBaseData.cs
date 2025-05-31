@@ -2,4 +2,9 @@
 
 public class MilkyBaseData
 {
+    public virtual string ToPreviewString()
+    {
+        return string.Empty;
+    }
+
 }

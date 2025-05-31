@@ -55,4 +55,7 @@ public class MessageChain : List<MilkySegment>
         });
         return this;
     }
+
+    public override string ToString() =>
+        string.Join(" ", this.Select(segment => segment.ToString()));
 }

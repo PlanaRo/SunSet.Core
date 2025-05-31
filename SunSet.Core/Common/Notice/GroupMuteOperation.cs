@@ -12,7 +12,7 @@ internal class GroupMuteOperation : IOperationProcessor
     {
         if (node.Deserialize<MilkyGroupMute>() is { } mute)
         {
-            await bot.Invoke.Call(bot, mute, token);
+            await bot.Invoke.Call(bot, mute);
         }
     }
 }
@@ -24,17 +24,16 @@ public class MilkyGroupMute : MilkyBaseData
     /// </summary>
     [JsonPropertyName("group_id")]
     public uint GroupUin { get; init; }
-    /// <summary>
-    /// 被禁言的用户QQ
-    /// </summary>
+
     [JsonPropertyName("user_id")]
     public uint UserUin { get; init; }
-    /// <summary>
-    /// 禁言时长，单位为秒
-    /// </summary>
+
     [JsonPropertyName("duration")]
     public int Duration { get; init; }
 
     [JsonPropertyName("operator_id")]
     public uint OperatorUin { get; init; }
+
+    public override string ToPreviewString() =>
+        $"[{nameof(MilkyGroupMute)}] GroupUin: {GroupUin}, UserUin: {UserUin}, Duration: {Duration}, OperatorUin: {OperatorUin}";
 }

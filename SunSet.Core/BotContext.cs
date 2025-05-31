@@ -1,4 +1,5 @@
 ﻿using SunSet.Core.Common;
+using SunSet.Core.Log;
 using SunSet.Core.Network;
 
 namespace SunSet.Core;
@@ -11,9 +12,11 @@ public class BotContext
 
     private readonly OperationAdapter _adapter;
 
-    public readonly Common.EventHandler Invoke = new();
+    public readonly Common.EventHandler Invoke;
 
     public readonly ApiRequestHandler Api;
+
+    public readonly LogContext Log;
 
     public uint BotUin { get; internal set; }
 
@@ -21,15 +24,17 @@ public class BotContext
 
     public BotContext(ClientConfig config)
     {
-        Services = config.ServiceType switch
-        {
-            Enumerates.ServicesType.Websocket => new WebSocketServices(),
-            Enumerates.ServicesType.Webhook => new WebHookServices(),
-            _ => throw new NotSupportedException($"Service type {config.ServiceType} is not supported.")
-        };
         Config = config;
         Api = new ApiRequestHandler(this);
         _adapter = new OperationAdapter(this);
+        Invoke = new Common.EventHandler(this);
+        Log = new LogContext(this);
+        Services = config.ServiceType switch
+        {
+            Enumerates.ServicesType.Websocket => new WebSocketServices(Log),
+            Enumerates.ServicesType.Webhook => new WebHookServices(Log),
+            _ => throw new NotSupportedException($"Service type {config.ServiceType} is not supported.")
+        };
     }
 
     public async Task StarAsync(CancellationToken token)

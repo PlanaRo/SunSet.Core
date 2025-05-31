@@ -9,4 +9,7 @@ public class UserLoginDetails
 
     [JsonPropertyName("uin")]
     public uint Uin { get; init; }
+
+    public override string ToString() =>
+        $"[{nameof(UserLoginDetails)}] Nickname: {Nickname}, Uin: {Uin}";
 }

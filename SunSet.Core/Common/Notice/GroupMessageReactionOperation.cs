@@ -12,7 +12,7 @@ internal class GroupMessageReactionOperation : IOperationProcessor
     {
         if (node.Deserialize<MilkyGroupMessageReaction>() is { } reaction)
         {
-            await bot.Invoke.Call(bot, reaction, token);
+            await bot.Invoke.Call(bot, reaction);
         }
     }
 }
@@ -33,4 +33,7 @@ public class MilkyGroupMessageReaction : MilkyBaseData
 
     [JsonPropertyName("is_add")]
     public bool IsAdd { get; init; }
+
+    public override string ToPreviewString() =>
+        $"[{nameof(MilkyGroupMessageReaction)}] Group: {GroupUin}, MessageId: {MessageId}, User: {UserUin}, Reaction: {(IsAdd ? "Added" : "Removed")} {FaceId}";
 }

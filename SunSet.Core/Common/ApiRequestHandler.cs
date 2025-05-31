@@ -1,5 +1,6 @@
 ﻿using System.ComponentModel;
 using System.Reflection;
+using System.Security.AccessControl;
 using System.Text.Encodings.Web;
 using System.Text.Json;
 using System.Text.Json.Nodes;
@@ -457,18 +458,20 @@ public class ApiRequestHandler
     // 修改 Request<T> 方法，添加 CancellationToken 参数
     private async Task<ApiResult<T>> Request<T>(object? obj, ApiOperationType type, CancellationToken cancellationToken = default)
     {
-        var api = type.GetType().GetField(type.ToString())!
+        var api = type.GetType().GetField(type.ToString())?
             .GetCustomAttribute<DescriptionAttribute>()?.Description ?? throw new InvalidOperationException("API type not found.");
         var json = obj == null ? "{}" : JsonSerializer.Serialize(obj);
         var content = new StringContent(json, System.Text.Encoding.UTF8, "application/json");
-        var result = await _client.PostAsync(BaseUrl + api, content, cancellationToken);
-        if (!result.IsSuccessStatusCode)
+        var response = await _client.PostAsync(BaseUrl + api, content, cancellationToken);
+        if (!response.IsSuccessStatusCode)
         {
-            throw new HttpRequestException($"API request failed with status code {result.StatusCode}: {await result.Content.ReadAsStringAsync(cancellationToken)}");
+            throw new HttpRequestException($"API request failed with status code {response.StatusCode}: {await response.Content.ReadAsStringAsync(cancellationToken)}");
         }
-        var response = await result.Content.ReadAsStringAsync(cancellationToken);
-        return JsonSerializer.Deserialize<ApiResult<T>>(response, CachedJsonSerializerOptions)
+        var resultString = await response.Content.ReadAsStringAsync(cancellationToken);   
+        var apiResult = JsonSerializer.Deserialize<ApiResult<T>>(resultString, CachedJsonSerializerOptions)
             ?? throw new InvalidOperationException("API response deserialization failed.");
+        _context.Log.LogCritical($"[{nameof(ApiRequestHandler)}]: API Request: {api}, Payload: {json}, Status Code: {response.StatusCode}, Response: {apiResult}");
+        return apiResult;
     }
 }
 
@@ -488,6 +491,17 @@ public class ApiResult<T>
 
     public override string ToString()
     {
-        return $"Code: {Code}, Msg: {Status}, Data: {Data}";
+        return $"Code: {Code}, Msg: {Status}, Data: {ToPreviewString()}";
+    }
+
+    private string ToPreviewString()
+    {
+        return Data switch
+        {
+            null => "null",
+            string str => str,
+            IEnumerable<object> enumerable =>$"Count: {enumerable.Count()} {string.Join(", ", enumerable.Take(3).Select(item => item?.ToString() ?? "null"))}...",
+            _ => Data.ToString() ?? "null"
+        };
     }
 }

@@ -1,10 +1,13 @@
 ﻿using System.Net;
 using System.Text;
+using SunSet.Core.Log;
 
 namespace SunSet.Core.Network;
 
-internal class WebHookServices : IServices
+internal class WebHookServices(LogContext log) : IServices
 {
+    private readonly LogContext _log = log;
+
     public event Action<string>? OnMessageReceived;
 
     private readonly HttpListener _listener = new();
@@ -13,6 +16,7 @@ internal class WebHookServices : IServices
     {
         _listener.Prefixes.Add($"http://{config.Host}:{config.Port}/webhook/");
         _listener.Start();
+        _log.LogInformation($"[{nameof(WebHookServices)}] Start Service: http://*:{config.Port}/webhook/");
         try
         {
             while (true)
@@ -23,11 +27,11 @@ internal class WebHookServices : IServices
         }
         catch (TaskCanceledException)
         {
-            //_logger.LogInformation("[HttpReceive] 监听停止: http://*:{Prot}/", _configuration["Server:Port"]);
+            _log.LogInformation($"[{nameof(WebHookServices)}] Stop Services: http://*:{config.Port}/");
         }
         catch (Exception ex)
         {
-            //_logger.LogError("[HttpReceive] 监听异常: {ErrorMessage}", ex);
+            _log.LogError($"[{nameof(WebHookServices)}] Error Message: {ex}");
         }
     }
 

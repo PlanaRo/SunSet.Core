@@ -9,4 +9,7 @@ public class GroupMessageResult
 
     [JsonPropertyName("message_seq")]
     public long MessageSeq { get; init; }
+
+    public override string ToString() =>
+        $"[{nameof(GroupMessageResult)}] GroupUin: {GroupUin}, MessageSeq: {MessageSeq}";
 }
