@@ -12,7 +12,7 @@ using SunSet.Core.Segments;
 
 namespace SunSet.Core.Common;
 
-public class ApiRequestHandler
+public class ApiRequestHandler : IDisposable
 {
     private readonly BotContext _context;
 
@@ -475,6 +475,13 @@ public class ApiRequestHandler
             ?? throw new InvalidOperationException("API response deserialization failed.");
         _context.Log.LogDebug($"[{nameof(ApiRequestHandler)}]: API Request: {api}, Payload: {json}, Status Code: {response.StatusCode}, Response: {apiResult}");
         return apiResult;
+    }
+
+    public void Dispose()
+    {
+        _client?.Dispose();
+        _context.Log.LogDebug($"[{nameof(ApiRequestHandler)}]: Disposed API Request Handler.");
+        GC.SuppressFinalize(this);
     }
 }
 

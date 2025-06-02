@@ -4,7 +4,7 @@ using SunSet.Core.Network;
 
 namespace SunSet.Core;
 
-public class BotContext
+public class BotContext : IDisposable
 {
     internal readonly IServices Services;
 
@@ -53,5 +53,18 @@ public class BotContext
         await Services.StartService(Config, token);
     }
 
+    public async Task StopAsync()
+    {
+        await Services.StopService();
+        Dispose();
+    }
+
     public static BotContext CreateFactory(ClientConfig config) => new(config);
+
+    public void Dispose()
+    {
+        Action.Dispose();
+        _adapter.Dispose();
+        GC.SuppressFinalize(this);
+    }
 }

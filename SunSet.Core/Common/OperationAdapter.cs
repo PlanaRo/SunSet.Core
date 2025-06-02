@@ -11,7 +11,7 @@ namespace SunSet.Core.Common;
 /// corresponding operation processors and executing the appropriate handler for a given operation. It uses reflection
 /// to discover and register all types implementing <see cref="IOperationProcessor"/> that are annotated with the <see
 /// cref="CustomEventAttribute"/>.</remarks>
-internal class OperationAdapter
+internal class OperationAdapter : IDisposable
 {
     private readonly Dictionary<string, IOperationProcessor> _operationHandlers = [];
 
@@ -46,5 +46,11 @@ internal class OperationAdapter
         {
             await handler.HandleOperationAsync(_context, args.Payload, token);
         }
+    }
+
+    public void Dispose()
+    {
+        _operationHandlers.Clear();
+        GC.SuppressFinalize(this);
     }
 }
