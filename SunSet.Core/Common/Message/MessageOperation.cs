@@ -39,7 +39,7 @@ public class MilkyBaseMessage : MilkyBaseData
     public string MessageScene { get; init; } = string.Empty;
 
     [JsonPropertyName("peer_id")]
-    public uint GroupUin { get; init; }
+    public uint PeerUin { get; init; }
 
     [JsonPropertyName("sender_id")]
     public uint SenderUin { get; init; }
