@@ -15,7 +15,7 @@ public static class HostApplicationBuilderExtension
     public static HostApplicationBuilder AddSunSetServices(this HostApplicationBuilder builder)
     {
         builder.Services.AddHostedService<SunsetAPI>();
-        builder.Services.AddSingleton<BotContext>((s)=>
+        builder.Services.AddSingleton(_ =>
         { 
             return BotContext.CreateFactory(new ClientConfig()
             {

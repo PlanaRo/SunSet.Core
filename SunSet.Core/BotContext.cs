@@ -4,7 +4,7 @@ using SunSet.Core.Network;
 
 namespace SunSet.Core;
 
-public class BotContext
+public class BotContext : IDisposable
 {
     internal readonly IServices Services;
 
@@ -14,7 +14,7 @@ public class BotContext
 
     public readonly Common.EventHandler Invoke;
 
-    public readonly ApiRequestHandler Api;
+    public readonly ApiRequestHandler Action;
 
     public readonly LogContext Log;
 
@@ -25,7 +25,7 @@ public class BotContext
     public BotContext(ClientConfig config)
     {
         Config = config;
-        Api = new ApiRequestHandler(this);
+        Action = new ApiRequestHandler(this);
         _adapter = new OperationAdapter(this);
         Invoke = new Common.EventHandler(this);
         Log = new LogContext(this);
@@ -43,8 +43,28 @@ public class BotContext
         {
             await _adapter.HandleOperationAsync(message, token);
         };
+        Services.OnServiceStarted += async () =>
+        {
+            var result = await Action.GetLoginInfo();
+            BotName = result.Data.Nickname;
+            BotUin = result.Data.Uin;
+            Log.LogInformation($"[{nameof(BotContext)}] Bot Name: {BotName}, Uin: {BotUin}");
+        };
         await Services.StartService(Config, token);
     }
 
+    public async Task StopAsync()
+    {
+        await Services.StopService();
+        Dispose();
+    }
+
     public static BotContext CreateFactory(ClientConfig config) => new(config);
+
+    public void Dispose()
+    {
+        Action.Dispose();
+        _adapter.Dispose();
+        GC.SuppressFinalize(this);
+    }
 }

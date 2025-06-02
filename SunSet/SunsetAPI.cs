@@ -5,7 +5,7 @@ using SunSet.Core;
 namespace SunSet;
 
 internal class SunsetAPI(BotContext context, ILogger<SunsetAPI> logger) : IHostedService
-{   
+{
     public static IServiceProvider ServiceProvider => SunSetApp.ServiceProvider;
 
     public static string PATH => Environment.CurrentDirectory;
@@ -22,7 +22,16 @@ internal class SunsetAPI(BotContext context, ILogger<SunsetAPI> logger) : IHoste
     {
         BotContext.Invoke.BotLogEvent += (bot, e) =>
         {
-            Logger.LogInformation(e.Message);
+            Logger.Log(e.Level switch
+            {
+                Core.Enumerates.LogLevel.Debug => LogLevel.Debug,
+                Core.Enumerates.LogLevel.Info => LogLevel.Information,
+                Core.Enumerates.LogLevel.Warning => LogLevel.Warning,
+                Core.Enumerates.LogLevel.Error => LogLevel.Error,
+                Core.Enumerates.LogLevel.Critical => LogLevel.Critical,
+                Core.Enumerates.LogLevel.Trace => LogLevel.Trace,
+                _ => LogLevel.Information
+            }, "{}", e.Message);
             return Task.CompletedTask;
         };
         await BotContext.StarAsync(cancellationToken).ConfigureAwait(false);

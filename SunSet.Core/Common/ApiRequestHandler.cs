@@ -12,7 +12,7 @@ using SunSet.Core.Segments;
 
 namespace SunSet.Core.Common;
 
-public class ApiRequestHandler
+public class ApiRequestHandler : IDisposable
 {
     private readonly BotContext _context;
 
@@ -454,23 +454,34 @@ public class ApiRequestHandler
     }
     #endregion
 
-    // 修改 Request<T> 方法，添加 CancellationToken 参数
     private async Task<ApiResult<T>> Request<T>(object? obj, ApiOperationType type, CancellationToken cancellationToken = default)
     {
         var api = type.GetType().GetField(type.ToString())?
-            .GetCustomAttribute<DescriptionAttribute>()?.Description ?? throw new InvalidOperationException("API type not found.");
+            .GetCustomAttribute<DescriptionAttribute>()?.Description 
+            ?? throw new InvalidOperationException("API type not found.");
+        // Serialize the object to JSON
         var json = obj == null ? "{}" : JsonSerializer.Serialize(obj);
         var content = new StringContent(json, System.Text.Encoding.UTF8, "application/json");
+        // Set the content type header
         var response = await _client.PostAsync(BaseUrl + api, content, cancellationToken);
         if (!response.IsSuccessStatusCode)
         {
             throw new HttpRequestException($"API request failed with status code {response.StatusCode}: {await response.Content.ReadAsStringAsync(cancellationToken)}");
         }
-        var resultString = await response.Content.ReadAsStringAsync(cancellationToken);   
+        var resultString = await response.Content.ReadAsStringAsync(cancellationToken);
+
+        // Deserialize the response into ApiResult<T>
         var apiResult = JsonSerializer.Deserialize<ApiResult<T>>(resultString, CachedJsonSerializerOptions)
             ?? throw new InvalidOperationException("API response deserialization failed.");
-        _context.Log.LogCritical($"[{nameof(ApiRequestHandler)}]: API Request: {api}, Payload: {json}, Status Code: {response.StatusCode}, Response: {apiResult}");
+        _context.Log.LogDebug($"[{nameof(ApiRequestHandler)}]: API Request: {api}, Payload: {json}, Status Code: {response.StatusCode}, Response: {apiResult}");
         return apiResult;
+    }
+
+    public void Dispose()
+    {
+        _client?.Dispose();
+        _context.Log.LogDebug($"[{nameof(ApiRequestHandler)}]: Disposed API Request Handler.");
+        GC.SuppressFinalize(this);
     }
 }
 

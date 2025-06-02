@@ -78,9 +78,9 @@ public class EventHandler
         RegisterEvent((BotLogEventArgs args) => BotLogEvent?.Invoke(context, args));
     }
 
-    public void RegisterEvent<T>(Action<T> action) where T : MilkyBaseData => _eventHandlers[typeof(T)] = data => action((T)data);
+    internal void RegisterEvent<T>(Action<T> action) where T : MilkyBaseData => _eventHandlers[typeof(T)] = data => action((T)data);
 
-    public Task Call(BotContext context, MilkyBaseData args)
+    internal Task Call(BotContext context, MilkyBaseData args)
     {
         if (_eventHandlers.TryGetValue(args.GetType(), out var handler))
         {

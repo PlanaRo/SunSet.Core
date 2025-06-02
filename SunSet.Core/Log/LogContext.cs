@@ -18,4 +18,6 @@ public class LogContext(BotContext context)
     public void LogError(string message) => Log(message, LogLevel.Error);
 
     public void LogCritical(string message) => Log(message, LogLevel.Critical);
+
+    public void LogDebug(string message) => Log(message, LogLevel.Debug);
 }
