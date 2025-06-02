@@ -1,11 +1,24 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Microsoft.Extensions.Hosting;
+using SunSet.Extensions;
 
 namespace SunSet;
 
-public class SunSetApp
+public sealed class SunSetApp
 {
+    private readonly HostApplicationBuilder hostApplicationBuilder = Host.CreateApplicationBuilder();
+
+#nullable disable
+    public static IServiceProvider ServiceProvider { get; private set; }
+#nullable enable
+
+    internal static SunSetApp Create() => new();
+
+    public void Start()
+    {
+        var app = hostApplicationBuilder
+            .AddSunSetServices()
+            .Build();
+        ServiceProvider = app.Services;
+        app.Run();
+    }
 }

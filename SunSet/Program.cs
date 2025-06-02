@@ -1,28 +1,25 @@
-﻿using SunSet.Core;
+﻿using System.Reflection;
+using SunSet;
 
-var bot = BotContext.CreateFactory(new()
-{
-    Host = "localhost",
-    Port = 55119,
-    AccessToken = "your_access_token_here",
-    ServiceType = SunSet.Core.Enumerates.ServicesType.Websocket
-});
+Console.Title = "SunSet Bot";
 
-bot.Invoke.BotLogEvent += async (sender, log) =>
+if (!File.Exists("appsettings.json"))
 {
-    await Console.Out.WriteLineAsync($"[{log.Level}] {log.Message}");
-};
-
-bot.Invoke.OnGroupMessageReceived += async (sender, message) =>
-{
-    if(message.SenderUin == bot.BotUin || message.GroupUin != 1097364579)
+    Console.WriteLine("appsettings.json already exists, skipping copy.");
+    using var stream = Assembly.GetExecutingAssembly()
+        .GetManifestResourceStream("SunSet.Resources.appsettings.json");
+    using var fs = new FileStream("appsettings.json", FileMode.Create, FileAccess.Write);
+    if (stream is not null)
     {
-        //Console.WriteLine($"{message.Segments} from self, ignoring.");
-        return;
+        stream.CopyTo(fs);
+        fs.Flush();
     }
-    //Console.WriteLine($"Group Message from {message.GroupUin}: {message.Segments}");
-    message.Segments.GroupUin = message.GroupUin;
-    await bot.Api.SendGroupMsg(message.Segments);
-};
+    else
+    {
+        Console.WriteLine("Failed to copy appsettings.json from resources.");
+    }
+    Environment.Exit(0);
+}
 
-bot.StarAsync(new CancellationToken()).GetAwaiter().GetResult();
+SunSetApp.Create()
+    .Start();

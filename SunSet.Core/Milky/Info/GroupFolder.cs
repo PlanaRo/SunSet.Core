@@ -13,7 +13,7 @@ public class GroupFolder
     public uint GroupUin { get; init; }
 
     [JsonPropertyName("folder_id")]
-    public string FolderId { get; init; }
+    public string FolderId { get; init; } = string.Empty;
 
     [JsonPropertyName("folder_name")]
     public string FolderName { get; init; } = string.Empty;
