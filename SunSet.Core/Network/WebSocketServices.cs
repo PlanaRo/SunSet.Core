@@ -13,7 +13,7 @@ internal class WebSocketServices(LogContext log) : IServices
     private readonly ClientWebSocket _client = new();
 
     public event Action<string>? OnMessageReceived;
-
+    public event Action? OnServiceStarted;
 
     public async Task StartService(ClientConfig config, CancellationToken token)
     {
@@ -25,6 +25,7 @@ internal class WebSocketServices(LogContext log) : IServices
             throw new InvalidOperationException("WebSocket connection failed.");
         }
         _log.LogInformation($"[{nameof(WebSocketServices)}]: Socket Connected To {uri}.");
+        OnServiceStarted?.Invoke();
         await ReceiveLoopAsync(token);
     }
 

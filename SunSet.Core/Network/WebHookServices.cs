@@ -9,6 +9,7 @@ internal class WebHookServices(LogContext log) : IServices
     private readonly LogContext _log = log;
 
     public event Action<string>? OnMessageReceived;
+    public event Action? OnServiceStarted;
 
     private readonly HttpListener _listener = new();
 
@@ -17,6 +18,7 @@ internal class WebHookServices(LogContext log) : IServices
         _listener.Prefixes.Add($"http://{config.Host}:{config.Port}/webhook/");
         _listener.Start();
         _log.LogInformation($"[{nameof(WebHookServices)}] Start Service: http://*:{config.Port}/webhook/");
+        OnServiceStarted?.Invoke();
         try
         {
             while (true)

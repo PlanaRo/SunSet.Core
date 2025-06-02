@@ -16,5 +16,7 @@ public enum LogLevel
 
     Error,
 
-    Critical
+    Critical,
+
+    Trace
 }
