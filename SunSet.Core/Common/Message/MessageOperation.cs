@@ -1,10 +1,10 @@
-﻿using System.Text.Json;
-using System.Text.Json.Nodes;
-using System.Text.Json.Serialization;
-using SunSet.Core.Common;
+﻿using SunSet.Core.Common;
 using SunSet.Core.Milky;
 using SunSet.Core.Milky.Info;
 using SunSet.Core.Segments;
+using System.Text.Json;
+using System.Text.Json.Nodes;
+using System.Text.Json.Serialization;
 
 namespace SunSet.Core.Operation.Message;
 

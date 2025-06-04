@@ -1,15 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using SunSet.Core.Enumerates;
+﻿using SunSet.Core.Enumerates;
 
 namespace SunSet.Core.Log;
 
 public class LogContext(BotContext context)
 {
-    public void Log(string message, LogLevel level)=> context.Invoke.Call(context, new BotLogEventArgs(message, level));
+    public void Log(string message, LogLevel level) => context.Invoke.Call(context, new BotLogEventArgs(message, level));
 
     public void LogInformation(string message) => Log(message, LogLevel.Info);
 

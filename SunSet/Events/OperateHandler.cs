@@ -37,8 +37,8 @@ public class OperateHandler
     }
 
     internal static async Task ReloadEvent(ReloadEventArgs args)
-    { 
-        if(OnReload != null)
+    {
+        if (OnReload != null)
             await OnReload(args);
-    } 
+    }
 }

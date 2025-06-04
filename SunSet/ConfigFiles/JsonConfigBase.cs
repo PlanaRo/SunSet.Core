@@ -10,6 +10,12 @@ public abstract class JsonConfigBase<T> where T : JsonConfigBase<T>, new()
 
     protected virtual string Filename => typeof(T).Namespace ?? typeof(T).Name;
 
+    private static JsonSerializerOptions _option => new()
+    {
+        WriteIndented = true,
+        Encoder = System.Text.Encodings.Web.JavaScriptEncoder.UnsafeRelaxedJsonEscaping
+    };
+
     protected virtual void SetDefault()
     {
     }
@@ -28,9 +34,10 @@ public abstract class JsonConfigBase<T> where T : JsonConfigBase<T>, new()
         string file = t.FullFilename;
         if (File.Exists(file))
         {
-            return JsonSerializer.Deserialize<T>(File.ReadAllText(file)) ?? t;
+            return JsonSerializer.Deserialize<T>(File.ReadAllText(file), _option) ?? t;
         }
         t.SetDefault();
+        _instance = t;
         t.SaveTo();
         return t;
     }
@@ -47,7 +54,7 @@ public abstract class JsonConfigBase<T> where T : JsonConfigBase<T>, new()
                 dirInfo.Create();
             }
         }
-        File.WriteAllText(filepath, JsonSerializer.Serialize(_instance));
+        File.WriteAllText(filepath, JsonSerializer.Serialize(_instance, _option));
     }
 
     protected virtual Task OnReload(ReloadEventArgs args)

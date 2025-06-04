@@ -1,5 +1,5 @@
-﻿using System.Reflection;
-using SunSet;
+﻿using SunSet;
+using System.Reflection;
 
 Console.Title = "SunSet Bot";
 

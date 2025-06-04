@@ -1,7 +1,6 @@
-﻿using System;
+﻿using SunSet.Core.Log;
 using System.Net.WebSockets;
 using System.Text;
-using SunSet.Core.Log;
 
 namespace SunSet.Core.Network;
 

@@ -1,9 +1,9 @@
-﻿using System.Reflection;
+﻿using SunSet.Core.Segments;
+using SunSet.Core.Segments.Entity;
+using System.Reflection;
 using System.Text.Json;
 using System.Text.Json.Nodes;
 using System.Text.Json.Serialization;
-using SunSet.Core.Segments;
-using SunSet.Core.Segments.Entity;
 
 namespace SunSet.Core.Entity;
 
@@ -31,7 +31,7 @@ internal class EntityConverter : JsonConverter<MilkySegment>
                 return segment;
             }
         }
-       
+
         return null;
     }
 

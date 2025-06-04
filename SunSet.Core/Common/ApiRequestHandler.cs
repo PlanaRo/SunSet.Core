@@ -1,14 +1,14 @@
-﻿using System.ComponentModel;
+﻿using SunSet.Core.Common.ApiResultArgs;
+using SunSet.Core.Enumerates;
+using SunSet.Core.Milky.Info;
+using SunSet.Core.Operation.Message;
+using SunSet.Core.Segments;
+using System.ComponentModel;
 using System.Reflection;
 using System.Text.Encodings.Web;
 using System.Text.Json;
 using System.Text.Json.Nodes;
 using System.Text.Json.Serialization;
-using SunSet.Core.Common.ApiResultArgs;
-using SunSet.Core.Enumerates;
-using SunSet.Core.Milky.Info;
-using SunSet.Core.Operation.Message;
-using SunSet.Core.Segments;
 
 namespace SunSet.Core.Common;
 
@@ -147,9 +147,9 @@ public class ApiRequestHandler : IDisposable
 
     public async Task<ApiResult<JsonNode>> RejectRequest(string requestid, string reasons, CancellationToken cancellationToken = default)
     {
-        return await Request<JsonNode>(new 
-        { 
-            request_id = requestid, 
+        return await Request<JsonNode>(new
+        {
+            request_id = requestid,
             reasons
         }, ApiOperationType.REJECT_REQUEST, cancellationToken);
     }
@@ -457,7 +457,7 @@ public class ApiRequestHandler : IDisposable
     private async Task<ApiResult<T>> Request<T>(object? obj, ApiOperationType type, CancellationToken cancellationToken = default)
     {
         var api = type.GetType().GetField(type.ToString())?
-            .GetCustomAttribute<DescriptionAttribute>()?.Description 
+            .GetCustomAttribute<DescriptionAttribute>()?.Description
             ?? throw new InvalidOperationException("API type not found.");
         // Serialize the object to JSON
         var json = obj == null ? "{}" : JsonSerializer.Serialize(obj);
@@ -510,7 +510,7 @@ public class ApiResult<T>
         {
             null => "null",
             string str => str,
-            IEnumerable<object> enumerable =>$"Count: {enumerable.Count()} {string.Join(", ", enumerable.Take(3).Select(item => item?.ToString() ?? "null"))}...",
+            IEnumerable<object> enumerable => $"Count: {enumerable.Count()} {string.Join(", ", enumerable.Take(3).Select(item => item?.ToString() ?? "null"))}...",
             _ => Data.ToString() ?? "null"
         };
     }

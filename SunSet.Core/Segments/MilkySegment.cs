@@ -1,5 +1,5 @@
-﻿using System.Text.Json.Serialization;
-using SunSet.Core.Segments.Entity;
+﻿using SunSet.Core.Segments.Entity;
+using System.Text.Json.Serialization;
 
 namespace SunSet.Core.Entity;
 

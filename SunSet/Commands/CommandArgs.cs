@@ -15,7 +15,7 @@ public class CommandArgs
 
     public Account Account { get; }
 
-    public string CommandName { get;}
+    public string CommandName { get; }
 
     public List<string> Parameters { get; }
 
