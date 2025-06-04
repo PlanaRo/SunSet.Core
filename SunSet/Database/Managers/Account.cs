@@ -44,4 +44,24 @@ public class Account : RecordBase<Account>
         var account = new Account { UserId = userid, GroupName = groupName };
         AccountContext.Insert(account);
     }
+
+    public static void DeleteAccount(uint userid)
+    { 
+        var account = AccountContext.Records.FirstOrDefault(x => x.UserId == userid) 
+            ?? throw new NullReferenceException("Account not Exist");
+        AccountContext.Delete(account);
+    }
+
+    public static void MoveAccountGroup(uint userid, string groupName)
+    {
+        var account = AccountContext.Records.FirstOrDefault(x => x.UserId == userid) 
+            ?? throw new NullReferenceException("Account not Exist");
+        if (Group.GetGroup(groupName) == null)
+        {
+            throw new NullReferenceException("Group not Exist");
+        }
+        account.GroupName = groupName;
+        AccountContext.Update(account);
+    }   
 }
+

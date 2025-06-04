@@ -15,7 +15,9 @@ public class OperateHandler
 
     public static event OperateEventHandler<CommandArgs, Task>? OnCommand;
 
-    public static UserPermissionType PermissionEvent(Account account, string perm)
+    public static event OperateEventHandler<ReloadEventArgs, Task>? OnReload;
+
+    internal static UserPermissionType PermissionEvent(Account account, string perm)
     {
         var ownerId = SunsetAPI.ServiceProvider.GetRequiredService<IConfiguration>().GetSection("BotSettings:Owners").Get<HashSet<long>>() ?? [];
         if (ownerId.Contains(account.UserId))
@@ -26,11 +28,17 @@ public class OperateHandler
         return OnPermission(args);
     }
 
-    public static async Task<bool> CommandEvent(CommandArgs args)
+    internal static async Task<bool> CommandEvent(CommandArgs args)
     {
         if (OnCommand == null)
             return false;
         await OnCommand(args);
         return args.Handler;
     }
+
+    internal static async Task ReloadEvent(ReloadEventArgs args)
+    { 
+        if(OnReload != null)
+            await OnReload(args);
+    } 
 }

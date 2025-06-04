@@ -3,6 +3,7 @@ using Microsoft.Extensions.Hosting;
 using SunSet.Commands;
 using SunSet.Core;
 using SunSet.Core.Enumerates;
+using SunSet.Plugin;
 
 namespace SunSet.Extensions;
 
@@ -22,6 +23,7 @@ public static class HostApplicationBuilderExtension
             });
         });
         builder.Services.AddSingleton<CommandManager>();
+        builder.Services.AddSingleton<PluginLoader>();
         return builder;
     }
 }

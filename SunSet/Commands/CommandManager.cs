@@ -118,7 +118,10 @@ public class CommandManager(IConfiguration config, ILogger<CommandManager> logge
         }
     }
 
-    public void RegisterCommand(Assembly assembly)
+    internal void UnRegisterCommand(Assembly assembly) =>
+        Command.RemoveAll(c => c.GetType().Assembly == assembly);
+
+    internal void RegisterCommand(Assembly assembly)
     {
         var commandTypes = assembly.GetTypes()
             .Where(t => t.IsSubclassOf(typeof(Command)) && !t.IsAbstract)
