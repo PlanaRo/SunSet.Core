@@ -1,4 +1,5 @@
 ﻿using SunSet.Core;
+using SunSet.Core.Common;
 using SunSet.Core.Common.ApiResultArgs;
 using SunSet.Core.Operation.Message;
 using SunSet.Core.Segments;
@@ -29,17 +30,16 @@ public class CommandArgs
         Parameters = @params;
     }
 
-    public async Task<GroupMessageResult> Reply(string text, bool mention = false)
+    public async Task<ApiResult<GroupMessageResult>> Reply(MessageChain chain) => await Context.Action.SendGroupMsg(chain);
+
+    public async Task<ApiResult<GroupMessageResult>> Reply(string text, bool mention = false)
     {
-        Console.WriteLine(text);
         var msg = MessageChain.Group(Message.Group.GroupUin).Text(text);
         if (mention)
         {
             msg.Reply(Message.MessageSeq);
         }
-        var result = await Context.Action.SendGroupMsg(msg);
-        Console.WriteLine(result);
-        return result.Data;
+        return await Context.Action.SendGroupMsg(msg);
     }
 
 }

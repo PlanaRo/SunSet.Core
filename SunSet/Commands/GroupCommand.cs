@@ -10,6 +10,21 @@ public class GroupCommand : Command
     public override string[] Permissions { get; set; } = ["sunset.command.group"];
     public override string Description { get; set; } = "管理用户组和权限。";
 
+    public override string ErrorText { get; set; } = "命令错误，请使用:/group help查看详情";
+
+    [SubCommand("help")]
+    public static async Task GroupHelp(CommandArgs args, ILogger logger)
+    {
+        var sb = new StringBuilder("用户组管理命令:\n");
+        sb.AppendLine("/group add <group_name> [parent_group] [permissions] - 添加新用户组");
+        sb.AppendLine("/group list - 列出所有用户组");
+        sb.AppendLine("/group remove <group_name> - 删除指定用户组");
+        sb.AppendLine("/group addperm <group_name> <permissions> - 为用户组添加权限");
+        sb.AppendLine("/group delperm <group_name> <permissions> - 从用户组中删除权限");
+        sb.AppendLine("/group parent <group_name> <parent_group> - 设置用户组的父组");
+        await args.Reply(sb.ToString().Trim());
+    }
+
     [SubCommand("add", 2), HelpText("/group add <group_name> [parent_group] [permissions]")]
     public static async Task AddGroup(CommandArgs args, ILogger logger)
     {
