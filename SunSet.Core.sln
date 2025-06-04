@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SunSet.Core", "SunSet.Core\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SunSet", "SunSet\SunSet.csproj", "{E39A0448-82D9-48EE-BF84-B66E00E5C3F2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PluginExample", "PluginExample\PluginExample.csproj", "{D7B535FC-3AD3-42D2-9DC7-8963C2D1906A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{E39A0448-82D9-48EE-BF84-B66E00E5C3F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E39A0448-82D9-48EE-BF84-B66E00E5C3F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E39A0448-82D9-48EE-BF84-B66E00E5C3F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7B535FC-3AD3-42D2-9DC7-8963C2D1906A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7B535FC-3AD3-42D2-9DC7-8963C2D1906A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7B535FC-3AD3-42D2-9DC7-8963C2D1906A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7B535FC-3AD3-42D2-9DC7-8963C2D1906A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

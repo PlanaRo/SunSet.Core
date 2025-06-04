@@ -7,7 +7,7 @@ public class PermissionEventArgs(Account account, string perm, UserPermissionTyp
 {
     public Account Account { get; } = account;
 
-    public string permission { get; } = perm;
+    public string Permission { get; } = perm;
 
     public UserPermissionType UserPermissionType { get; set; } = userPermissionType;
 }

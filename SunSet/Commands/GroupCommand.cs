@@ -1,5 +1,6 @@
 ﻿using Microsoft.Extensions.Logging;
 using SunSet.Database.Managers;
+using SunSet.Extensions;
 using System.Text;
 
 namespace SunSet.Commands;
@@ -121,5 +122,17 @@ public class GroupCommand : Command
         {
             await args.Reply($"设置用户组父组失败: {ex.Message}");
         }
+    }
+
+    [SubCommand("listperm", 2), HelpText("/group listperm <group_name>")]
+    public static async Task GroupPermList(CommandArgs args, ILogger logger)
+    {
+        if (Group.GetGroup(args.Parameters[1]) is Group group)
+        {
+            var perm = $"{group.Name}权限列表:{group.GroupPermissions.JoinToString(x => x, ",")}";
+            await args.Reply(perm);
+            return;
+        }
+        await args.Reply($"组`{args.Parameters[1]}`不存在!");
     }
 }

@@ -3,6 +3,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using SunSet.Commands;
 using SunSet.Core;
+using SunSet.Plugin;
 using System.Data;
 using System.Reflection;
 
@@ -26,21 +27,25 @@ public class SunsetAPI : IHostedService
 
     public static CommandManager CommandManager { get; private set; }
 
+    public static PluginLoader PluginLoader { get; private set; }
+
     internal static IDbConnection DB { get; private set; }
 
-#nullable enable
+#nullable enable 
 
-    public SunsetAPI(BotContext context, CommandManager cmdManager, ILogger<SunsetAPI> logger)
+    public SunsetAPI(BotContext context, CommandManager cmdManager, PluginLoader loader, ILogger<SunsetAPI> logger)
     {
         BotContext = context;
         CommandManager = cmdManager;
         Logger = logger;
+        PluginLoader = loader;
         BuildDatabase();
     }
 
     public async Task StartAsync(CancellationToken cancellationToken)
     {
         CommandManager.RegisterCommand(Assembly.GetExecutingAssembly());
+        PluginLoader.Load();
         SubscribeBotEvent();
         await BotContext.StarAsync(cancellationToken).ConfigureAwait(false);
     }
