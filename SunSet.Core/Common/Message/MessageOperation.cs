@@ -38,6 +38,9 @@ public class MilkyBaseMessage : MilkyBaseData
     [JsonPropertyName("message_scene")]
     public string MessageScene { get; init; } = string.Empty;
 
+    [JsonPropertyName("message_seq")]
+    public long MessageSeq { get; init; } = 0;
+
     [JsonPropertyName("peer_id")]
     public uint PeerUin { get; init; }
 
