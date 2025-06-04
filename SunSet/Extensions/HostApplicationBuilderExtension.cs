@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Microsoft.Extensions.DependencyInjection;
+﻿using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using SunSet.Commands;
 using SunSet.Core;
 using SunSet.Core.Enumerates;
 
@@ -16,7 +12,7 @@ public static class HostApplicationBuilderExtension
     {
         builder.Services.AddHostedService<SunsetAPI>();
         builder.Services.AddSingleton(_ =>
-        { 
+        {
             return BotContext.CreateFactory(new ClientConfig()
             {
                 AccessToken = builder.Configuration["BotClient:AccessToken"] ?? string.Empty,
@@ -25,6 +21,7 @@ public static class HostApplicationBuilderExtension
                 ServiceType = Enum.TryParse<ServicesType>(builder.Configuration["BotClient:ServiceType"], true, out var serviceType) ? serviceType : throw new ArgumentException("Invalid ServiceType in configuration.")
             });
         });
+        builder.Services.AddSingleton<CommandManager>();
         return builder;
     }
 }

@@ -1,24 +1,62 @@
-﻿using Microsoft.Extensions.Hosting;
+﻿using Microsoft.Data.Sqlite;
+using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using SunSet.Commands;
 using SunSet.Core;
+using System.Data;
+using System.Reflection;
 
 namespace SunSet;
 
-internal class SunsetAPI(BotContext context, ILogger<SunsetAPI> logger) : IHostedService
+public class SunsetAPI : IHostedService
 {
-    public static IServiceProvider ServiceProvider => SunSetApp.ServiceProvider;
-
     public static string PATH => Environment.CurrentDirectory;
 
     public static string PLUGIN_PATH => Path.Combine(PATH, "Plugins");
 
     public static string CONFIG_PATH => Path.Combine(PATH, "Config");
 
-    public BotContext BotContext { get; } = context;
+    public static IServiceProvider ServiceProvider => SunSetApp.ServiceProvider;
 
-    public ILogger<SunsetAPI> Logger { get; } = logger;
+#nullable disable
+
+    public static BotContext BotContext { get; private set; }
+
+    public static ILogger<SunsetAPI> Logger { get; private set; }
+
+    public static CommandManager CommandManager { get; private set; }
+
+    internal static IDbConnection DB { get; private set; }
+
+#nullable enable
+
+    public SunsetAPI(BotContext context, CommandManager cmdManager, ILogger<SunsetAPI> logger)
+    {
+        BotContext = context;
+        CommandManager = cmdManager;
+        Logger = logger;
+        BuildDatabase();
+    }
 
     public async Task StartAsync(CancellationToken cancellationToken)
+    {
+        CommandManager.RegisterCommand(Assembly.GetExecutingAssembly());
+        SubscribeBotEvent();
+        await BotContext.StarAsync(cancellationToken).ConfigureAwait(false);
+    }
+
+    public void BuildDatabase()
+    {
+        var dbName = "Sunset.sqlite";
+        string sql = Path.Combine(PATH, dbName);
+        if (Path.GetDirectoryName(sql) is string path)
+        {
+            Directory.CreateDirectory(path);
+            DB = new SqliteConnection(string.Format("Data Source={0}", sql));
+        }
+    }
+
+    public static void SubscribeBotEvent()
     {
         BotContext.Invoke.BotLogEvent += (bot, e) =>
         {
@@ -34,11 +72,13 @@ internal class SunsetAPI(BotContext context, ILogger<SunsetAPI> logger) : IHoste
             }, "{}", e.Message);
             return Task.CompletedTask;
         };
-        await BotContext.StarAsync(cancellationToken).ConfigureAwait(false);
+
+        BotContext.Invoke.OnGroupMessageReceived += CommandManager.MessageReceive;
     }
 
     public Task StopAsync(CancellationToken cancellationToken)
     {
+        BotContext.Dispose();
         return Task.CompletedTask;
     }
 }
