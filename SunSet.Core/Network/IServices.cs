@@ -1,6 +1,4 @@
-﻿using SunSet.Core.Log;
-
-namespace SunSet.Core.Network;
+﻿namespace SunSet.Core.Network;
 
 internal interface IServices
 {

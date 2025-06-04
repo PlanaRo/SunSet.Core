@@ -3,6 +3,7 @@ using System.Text.Json.Serialization;
 
 namespace PluginExample;
 
+[ConfigSeries]
 public class Config : JsonConfigBase<Config>
 {
     [JsonPropertyName("禁用指令")]

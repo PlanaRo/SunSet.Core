@@ -73,7 +73,7 @@ public class CommandManager(IConfiguration config, ILogger<CommandManager> logge
     }
 
     internal async Task MessageReceive(BotContext bot, MilkyGroupMessage msg)
-    { 
+    {
         var prefix = _config["BotSettings:CommandPrefix"] ?? string.Empty;
         var text = msg.Segments.GetEntities<TextEntity>().JoinToString(x => x.Text, " ");
         if (string.IsNullOrWhiteSpace(text) || !text.StartsWith(prefix, StringComparison.OrdinalIgnoreCase))
@@ -99,7 +99,7 @@ public class CommandManager(IConfiguration config, ILogger<CommandManager> logge
             return;
         }
         var commandArgs = new CommandArgs(bot, msg, account, commandName, [.. commandParts.Skip(1)]);
-        if(await OperateHandler.CommandEvent(commandArgs) == false)
+        if (await OperateHandler.CommandEvent(commandArgs) == false)
         {
             log.LogInformation("Executing command '{CommandName}' for user {User}.", commandName, msg.SenderUin);
             try

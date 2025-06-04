@@ -1,9 +1,8 @@
-﻿using System.Reflection;
-using System.Runtime.Loader;
-using Microsoft.Extensions.DependencyInjection;
+﻿using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
-using SunSet.Commands;
 using SunSet.Core;
+using System.Reflection;
+using System.Runtime.Loader;
 
 namespace SunSet.Plugin;
 
@@ -46,7 +45,7 @@ public class PluginContext(string name) : AssemblyLoadContext(name, true)
         }
 
         foreach (var p in Plugins.OrderBy(p => p.Plugin.Order))
-        { 
+        {
             logger.LogInformation("[{Time}] [PluginLoader] Plugin {PluginName} V{PluginVersion} by({PluginAuthor}) Initiate.", DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss"), p.Plugin.Name, p.Plugin.Version, p.Plugin.Author);
             p.Initialize();
         }

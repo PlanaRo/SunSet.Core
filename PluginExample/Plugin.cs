@@ -26,7 +26,7 @@ public class Plugin : SunsetPlugin
 
     public Plugin(BotContext context, ILogger logger) : base(context, logger)
     {
-        if(!Directory.Exists(LogPath))
+        if (!Directory.Exists(LogPath))
         {
             Directory.CreateDirectory(LogPath);
         }
@@ -42,7 +42,7 @@ public class Plugin : SunsetPlugin
     protected override void Dispose(bool dispose)
     {
         if (dispose)
-        { 
+        {
             _logWriter.Dispose(); // 释放日志文件写入器资源
             OperateHandler.OnCommand -= OnCommand;
             OperateHandler.OnPermission -= OnPermission;
@@ -77,7 +77,7 @@ public class Plugin : SunsetPlugin
     /// <returns></returns>
     private UserPermissionType OnPermission(PermissionEventArgs args)
     {
-        if(Config.Instance.DisabledPermissions.Contains(args.Permission.ToLower()))
+        if (Config.Instance.DisabledPermissions.Contains(args.Permission.ToLower()))
         {
             return UserPermissionType.Unhandled; // 直接赋予无权限状态
         }
@@ -91,7 +91,7 @@ public class Plugin : SunsetPlugin
     /// <returns></returns>
     private async Task OnCommand(CommandArgs args)
     {
-        if(Config.Instance.DisabledCommands.Contains(args.CommandName.ToLower()))
+        if (Config.Instance.DisabledCommands.Contains(args.CommandName.ToLower()))
         {
             await args.Reply("此命令已被禁用。");
             args.Handler = true; // 阻止进一步处理

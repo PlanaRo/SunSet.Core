@@ -1,5 +1,4 @@
 using Microsoft.Extensions.Logging;
-using SunSet;
 using SunSet.Core;
 
 namespace SunSet.Plugin;

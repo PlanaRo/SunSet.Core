@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Text.Json.Serialization;
-using System.Threading.Tasks;
+﻿using System.Text.Json.Serialization;
 
 namespace SunSet.Core.Segments.Entity;
 
@@ -17,5 +12,5 @@ public class VideoEntity : BaseEntity
     public string TempUrl { get; set; } = string.Empty;
 
     public override string ToString() =>
-        $"[Video: {ResourceId}, TempUrl: {TempUrl}]";   
+        $"[Video: {ResourceId}, TempUrl: {TempUrl}]";
 }

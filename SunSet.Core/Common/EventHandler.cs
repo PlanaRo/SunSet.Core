@@ -1,5 +1,4 @@
-﻿using System.Runtime.CompilerServices;
-using SunSet.Core.Common.Message;
+﻿using SunSet.Core.Common.Message;
 using SunSet.Core.Common.Notice;
 using SunSet.Core.Log;
 using SunSet.Core.Milky;
@@ -84,7 +83,7 @@ public class EventHandler
     {
         if (_eventHandlers.TryGetValue(args.GetType(), out var handler))
         {
-            if(args is not BotLogEventArgs)
+            if (args is not BotLogEventArgs)
             {
                 context.Log.LogInformation(args.ToPreviewString());
             }

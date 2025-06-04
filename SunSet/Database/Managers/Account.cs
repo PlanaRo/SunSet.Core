@@ -23,19 +23,19 @@ public class Account : RecordBase<Account>
     }
 
     public bool HasPermission(string permission)
-    { 
+    {
         return OperateHandler.PermissionEvent(this, permission) switch
         {
             UserPermissionType.Granted => true,
             UserPermissionType.Denied => AccountGroup.HasPermission(permission),
             UserPermissionType.Unhandled => false,
             _ => throw new InvalidOperationException("Unknown permission type returned from event handler.")
-        }; 
+        };
     }
 
     public static Account GetAccount(long userId)
     {
-        return AccountContext.Records.FirstOrDefault(a => a.UserId == userId) 
+        return AccountContext.Records.FirstOrDefault(a => a.UserId == userId)
             ?? new Account { UserId = userId, GroupName = "default" };
     }
 
@@ -46,15 +46,15 @@ public class Account : RecordBase<Account>
     }
 
     public static void DeleteAccount(uint userid)
-    { 
-        var account = AccountContext.Records.FirstOrDefault(x => x.UserId == userid) 
+    {
+        var account = AccountContext.Records.FirstOrDefault(x => x.UserId == userid)
             ?? throw new NullReferenceException("Account not Exist");
         AccountContext.Delete(account);
     }
 
     public static void MoveAccountGroup(uint userid, string groupName)
     {
-        var account = AccountContext.Records.FirstOrDefault(x => x.UserId == userid) 
+        var account = AccountContext.Records.FirstOrDefault(x => x.UserId == userid)
             ?? throw new NullReferenceException("Account not Exist");
         if (Group.GetGroup(groupName) == null)
         {
@@ -62,6 +62,6 @@ public class Account : RecordBase<Account>
         }
         account.GroupName = groupName;
         AccountContext.Update(account);
-    }   
+    }
 }
 

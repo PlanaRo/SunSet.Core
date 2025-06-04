@@ -119,10 +119,10 @@ public class MessageChain : List<MilkySegment>
     {
         Entity(new ImageEntity
         {
-                ResourceId = resourceId,
-                TempUrl = tempUrl,
-                Summary = summary,
-                SubType = subType
+            ResourceId = resourceId,
+            TempUrl = tempUrl,
+            Summary = summary,
+            SubType = subType
         });
         return this;
     }

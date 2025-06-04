@@ -22,10 +22,10 @@ public class Help : Command
             await args.Reply(sb.ToString().Trim());
             return;
         }
-        
+
         var commandName = args.Parameters[0].ToLowerInvariant();
         var command = SunsetAPI.CommandManager.Command.FirstOrDefault(c => c.Aliases.Contains(commandName, StringComparer.OrdinalIgnoreCase));
-        
+
         if (command == null)
         {
             await args.Reply($"未找到命令: {commandName}");
@@ -37,7 +37,7 @@ public class Help : Command
             .Select(m => (m.GetCustomAttribute<SubCommandAttribute>()!, m.GetCustomAttribute<HelpTextAttribute>()!))
             .ToList();
         var sbHelp = new StringBuilder($"命令: {command.Aliases.FirstOrDefault()}\n描述: {command.Description}\n权限: {string.Join(", ", command.Permissions)}\n子命令:\n");
-        foreach (var cmd in cmdsubs) 
+        foreach (var cmd in cmdsubs)
         {
             sbHelp.AppendLine($"- {cmd.Item1.Subname} : {cmd.Item2.Text}");
         }

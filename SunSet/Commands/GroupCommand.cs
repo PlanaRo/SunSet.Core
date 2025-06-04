@@ -57,7 +57,7 @@ public class GroupCommand : Command
         {
             sb.AppendLine($"- {group.Name} (父组: {group.ParentGroup}, 权限: {group.Permission})");
         }
-        
+
         await args.Reply(sb.ToString());
     }
 

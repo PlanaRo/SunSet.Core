@@ -1,6 +1,6 @@
-﻿using System.Reflection;
+﻿using SunSet.Core.Milky;
+using System.Reflection;
 using System.Text.Json;
-using SunSet.Core.Milky;
 
 namespace SunSet.Core.Common;
 

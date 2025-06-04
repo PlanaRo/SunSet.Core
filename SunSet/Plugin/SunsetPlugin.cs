@@ -7,7 +7,7 @@ namespace SunSet.Plugin;
 public abstract class SunsetPlugin(BotContext context, ILogger logger) : IDisposable
 {
     public virtual string Name
-    { 
+    {
         get => GetType().Name;
     }
 
@@ -35,7 +35,7 @@ public abstract class SunsetPlugin(BotContext context, ILogger logger) : IDispos
     private void AutoLoad()
     {
         SunsetAPI.CommandManager.RegisterCommand(GetType().Assembly);
-        foreach (var type in GetType().Assembly.GetTypes().Where(t => t.IsSubclassOf(typeof(JsonConfigBase<>))))
+        foreach (var type in GetType().Assembly.GetTypes().Where(t => t.IsDefined(typeof(ConfigSeriesAttribute), true)))
         {
             var method = type.BaseType!.GetMethod("Load") ?? throw new MissingMethodException($"method 'Load()' is missing inside the lazy loaded config class '{Name}'");
             var name = method.Invoke(null, []);
